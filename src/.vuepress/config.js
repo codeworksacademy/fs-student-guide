@@ -7,7 +7,7 @@ const GITHUB_USERNAME = 'codeworksacademy'
 module.exports = config({
   base: "/fs-student-guide/",
   title: 'Codeworks Student guide',
-  description: "My thoughts notes and reflections while attending Codeworks Immersive FullStack Program",
+  description: "Codeworks Immersive FullStack Program Resources",
   head: [
     ['meta', { name: 'theme-color', content: '#3093d9' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],

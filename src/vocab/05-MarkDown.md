@@ -1,11 +1,6 @@
 # Markdown
 **Markdown**  is a lightweight markup language that you can use to add formatting elements to plaintext text documents. 
 
-
-
-
-
-
 ## Headers
 
 ```
@@ -212,12 +207,12 @@ But let's throw in a <b>tag</b>.
 
 ```
 
-```source-js
+```js
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
-```source-python
+```python
 s = "Python syntax highlighting"
 print s
 ```
