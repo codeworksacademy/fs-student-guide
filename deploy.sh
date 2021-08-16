@@ -1,8 +1,5 @@
 #!/usr/bin/env sh
 
-# abort on errors
-set -e
-
 # commit current src
 git add .
 git commit -m 'deploy'
