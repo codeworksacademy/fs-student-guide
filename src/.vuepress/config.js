@@ -1,33 +1,33 @@
 const fs = require("fs");
 const path = require("path");
-const { config } = require("vuepress-theme-hope");
+// const { config } = require("vuepress-theme-hope");
 
 const GITHUB_USERNAME = 'codeworksacademy'
 
-module.exports = config({
+module.exports = {
   base: "/fs-student-guide/",
   title: 'Codeworks Student guide',
   description: "Codeworks Immersive FullStack Program Resources",
-  head: [
-    ['meta', { name: 'theme-color', content: '#3093d9' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'application-name', content: `${GITHUB_USERNAME} guide` }],
-    ['meta', { name: 'ROBOTS', content: 'FOLLOW' }],
-    ['meta', { name: 'og:image', content: 'https://bcw.blob.core.windows.net/public/img/8600856373152463' }],
-    ['meta', { name: 'og:type', content: 'article' }],
-    ['meta', { name: 'og:url', content: `https://${GITHUB_USERNAME}.github.io/fs-student-guide` }],
-    ['meta', { name: 'og:title', content: 'Learn to Code. Develop Your Future' }],
-    ['meta', { name: 'og:locale', content: 'en_US' }]
-  ],
+  // head: [
+  //   ['meta', { name: 'theme-color', content: '#3093d9' }],
+  //   ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+  //   ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+  //   ['meta', { name: 'application-name', content: `${GITHUB_USERNAME} guide` }],
+  //   ['meta', { name: 'ROBOTS', content: 'FOLLOW' }],
+  //   ['meta', { name: 'og:image', content: 'https://bcw.blob.core.windows.net/public/img/8600856373152463' }],
+  //   ['meta', { name: 'og:type', content: 'article' }],
+  //   ['meta', { name: 'og:url', content: `https://${GITHUB_USERNAME}.github.io/fs-student-guide` }],
+  //   ['meta', { name: 'og:title', content: 'Learn to Code. Develop Your Future' }],
+  //   ['meta', { name: 'og:locale', content: 'en_US' }]
+  // ],
   themeConfig: {
-    pwa: false,
+    // pwa: false,
     logo: 'https://bcw.blob.core.windows.net/public/img/2900578872732848',
-    editLinks: true,
-    repo: `${GITHUB_USERNAME}/fs-student-guide`,
-    repoLabel: 'Contribute!',
-    docsDir: 'src',
-    docsBranch: 'main',
+    // editLinks: true,
+    // repo: `${GITHUB_USERNAME}/fs-student-guide`,
+    // repoLabel: 'Contribute!',
+    // docsDir: 'src',
+    // docsBranch: 'main',
     // nav: [
     //   {
     //     text: 'Resources',
@@ -63,7 +63,7 @@ module.exports = config({
   markdown: {
     lineNumbers: true
   }
-})
+}
 
 function getSideBar(folder, title) {
   const extension = [".md"];
