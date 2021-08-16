@@ -22,10 +22,10 @@ Alt-H2
 ```
 
 H1
-=========================================================================
+========
 
 H2
--------------------------------------------------------------------------
+--------
 
 ### H3
 
@@ -38,7 +38,7 @@ H2
 Alternatively, for H1 and H2, an underline-ish style:
 
 Alt-H1
-=================================================================================
+==============
 
 Alt-H2
 
@@ -136,7 +136,6 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
-
 ```
 
 [I'm an inline-style link](https://www.google.com/)
@@ -182,14 +181,13 @@ Code blocks are part of the Markdown spec, but syntax highlighting isn't. Howeve
 
 ```
 Inline `code` has `back-ticks around` it.
-
 ```
 
 Inline `code` has `back-ticks around` it.
 
 Blocks of code are either fenced by lines with three back-ticks `````, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
 
-```
+
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -203,8 +201,6 @@ print s
 ```
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
-```
-
 ```
 
 ```js
@@ -338,7 +334,7 @@ Underscores
 
 ## Line Breaks
 
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit <Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
+My basic recommendation for learning how line breaks work is to experiment and discover -- hit `Enter` once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
 
 Here are some things to try out:
 
@@ -362,7 +358,7 @@ This line is only separated by a single newline, so it's a separate line in the�
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
 
 ## YouTube Videos
--------------------------------------------------------------------------------------------------
+---------------------
 
 They can't be added directly but you can add an image with a link to the video like this:
 
@@ -379,10 +375,6 @@ Or, in pure Markdown, but losing the image sizing and border:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ```
-
-Referencing a bug by #bugID in your git commit links it to the slip. For example #1.
-
-* * * * *
 
 Adam Pritchard edited this page on May 29, 2017 - [96 revisions](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/_history)
 

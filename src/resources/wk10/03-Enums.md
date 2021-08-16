@@ -104,9 +104,9 @@ class EnumBaseAndMembers
     }
 }
 ```
-The *Volume* enum shows how to modify the base type and members of an enum. Its base type is changed to *byte* with the:* <type>* syntax following the enum identifier, *Volume*. This ensures that the *Volume* enum may only have members with values that are valid for type *byte*.
+The *Volume* enum shows how to modify the base type and members of an enum. Its base type is changed to *byte* with the:* type* syntax following the enum identifier, *Volume*. This ensures that the *Volume* enum may only have members with values that are valid for type *byte*.
 
-The first member of the *Volume* enum, *Low*, has its value changed to 1. The same syntax, *<member> = <value>*, may be applied to any member of the enum. You are restricted from creating forward references, circular references, and duplicate references in enum members.
+The first member of the *Volume* enum, *Low*, has its value changed to 1. The same syntax, *`member` = `value`*, may be applied to any member of the enum. You are restricted from creating forward references, circular references, and duplicate references in enum members.
 
 The default values of the *Volume* enum are *Low*=0, *Medium*=1, and *High*=2 because the first member of an enum default to 0 and the following members default to one more than their predecessor. However, the *Volume* enum in Listing 17-2 has its *Low* member set to 1, which means that *Medium*=2 and *High*=3.
 

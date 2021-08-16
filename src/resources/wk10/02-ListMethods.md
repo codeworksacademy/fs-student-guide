@@ -1,7 +1,7 @@
 # C# List
 Following examples show how to create and manipulate with .NET strongly typed list `List<T>`. When reading documentation on lists know that `T` stands for any type, in many of the examples the `T` will be an `int`
 
-## List<T>
+## `List<T>`
 List is a generic type, so you can create list of any type (it can be reference type such as Customer or value type such as int)
 ```csharp
 var list1 = new List<object>();
@@ -62,7 +62,8 @@ Adds items of another list (or an IEnumerable collection) to the end of the list
 ## List.BinarySearch
 Returns the zero-based index of the item in the sorted list. If the items is not found, returns a negative number. See MSDN for more info.
 
-This List<T> method works only if the type T implements IComparable<T> or IComparable interface.
+This `List<T>` method works only if the type T implements `IComparable<T>` or IComparable interface.
+
 ```csharp
 // list:	1 3 4 6 7 9
  int index = list.BinarySearch(6); 
@@ -178,7 +179,7 @@ Returns the first occurrence of item matching the specified predicate.
  int item = list.Find(x => x > 2); 
 // item:	3
 ```
-For List<T> returns the default value of type T if no item matches the predicate. In this case the default value of int is 0.
+For `List<T>` returns the default value of type T if no item matches the predicate. In this case the default value of int is 0.
 ```csharp
 // list:	8 3 2
  int item = list.Find(x => x > 10); 
@@ -229,7 +230,7 @@ Returns the last occurrence of item matching the specified predicate.
  int item = list.FindLast(x => x < 5); 
 // item:	2
 ```
-For List<T> returns the default value of type T if no item matches the predicate. In this case the default value of int is 0.
+For `List<T>` returns the default value of type T if no item matches the predicate. In this case the default value of int is 0.
 ```csharp
 // list:	8 3 2
  int item = list.FindLast(x => x > 10); 
@@ -383,7 +384,7 @@ Reverses the order of the items in the specified range.
 ## List.Sort
 Sorts all items in the list.
 
-This List<T> method works only if the type T implements IComparable<T> or IComparable interface.
+This `List<T>` method works only if the type T implements `IComparable<T>` or IComparable interface.
 ```csharp
 // list:	8 3 6 2
  list.Sort(); 

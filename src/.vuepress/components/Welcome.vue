@@ -3,7 +3,7 @@
     <header class="text-center mb-5">
       <img
         height="200"
-        src="https://bcw.blob.core.windows.net/public/img/8600856373152463"
+        src="https://codeworks.blob.core.windows.net/public/assets/img/fs-logo.png"
       />
       <h2 id="description text-center">Learn to Code. Develop your Future!</h2>
     </header>
@@ -19,9 +19,3 @@ export default {
   name: "Welcome"
 }
 </script>
-
-<style>
-.page{
-
-}
-</style>
