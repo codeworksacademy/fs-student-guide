@@ -11,14 +11,11 @@
 
 **SOLID**
 
-<ul>
-<li><b>S - Single Responsibility</b> a class should be having one and only one responsibility</li>
-<li><b>O - Open / Closed</b> classes should be open for extension but closed for modification</li>
-<li><b>L - Liskov Substitution</b> parent classes should be easily substituted with their child classes without blowing up the application</li>
-<li><b>I - Interface Segregation</b> many client specific interfaces are better than one general interface</li>
-<li><b>D - Dependency Inversion</b> classes should depend on abstraction but not on concretion</li>
-</ul>
-
+- **S** - Single Responsibility a class should be having one and only one responsibility
+- **O** - Open / Closed classes should be open for extension but closed for modification
+- **L** - Liskov Substitution parent classes should be easily substituted with their child classes without blowing up the application
+- **I** - Interface Segregation many client specific interfaces are better than one general interface
+- **D** - Dependency Inversion classes should depend on abstraction but not on concretion
 
 ## Patterns
 
