@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 # commit current src
-git add .
-git commit -m 'deploy'
-git push
+git add . || true
+git commit -m 'deploy' || true
+git push || true
 
 # build
 npm run build
