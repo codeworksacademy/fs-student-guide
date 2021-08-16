@@ -44,6 +44,7 @@ module.exports = config({
       }
     ],
     sidebar: {
+      // '/': [...getSideBar('resources', 'Student Resources')],
       '/vocab/': [...getSideBar('vocab', 'Vocabulary')],
       '/resources/': [
         ...getSideBar('resources', 'Student Resources'),
