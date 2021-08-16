@@ -28,7 +28,6 @@ module.exports = config({
     repoLabel: 'Contribute!',
     docsDir: 'src',
     docsBranch: 'main',
-    darkmode: "switch",
     nav: [
       {
         text: 'Resources',
