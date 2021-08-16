@@ -1,10 +1,10 @@
 const fs = require("fs");
 const path = require("path");
-// const { config } = require("vuepress-theme-hope");
+const { config } = require("vuepress-theme-hope");
 
 const GITHUB_USERNAME = 'codeworksacademy'
 
-module.exports = {
+module.exports = config({
   base: "/fs-student-guide/",
   title: 'Codeworks Student guide',
   description: "Codeworks Immersive FullStack Program Resources",
@@ -63,7 +63,7 @@ module.exports = {
   markdown: {
     lineNumbers: true
   }
-}
+})
 
 function getSideBar(folder, title) {
   const extension = [".md"];
