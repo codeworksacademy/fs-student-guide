@@ -28,36 +28,36 @@ module.exports = config({
     repoLabel: 'Contribute!',
     docsDir: 'src',
     docsBranch: 'main',
-    nav: [
-      {
-        text: 'Resources',
-        link: '/resources/',
-      },
-      {
-        text: 'Vocab',
-        link: '/vocab/',
-      },
-      {
-        text: 'Codeworks',
-        link: 'https://boisecodeworks.com'
-      }
-    ],
-    sidebar: {
-      '/vocab/': [...getSideBar('vocab', 'Vocabulary')],
-      '/resources/': [
-        ...getSideBar('resources', 'Student Resources'),
-        ...getSideBar('resources/wk1', 'Building Blocks of Web Development'),
-        ...getSideBar('resources/wk2', 'Intro to Js'),
-        ...getSideBar('resources/wk3', 'Advancing with JS'),
-        ...getSideBar('resources/wk4', 'Asynchronous Code'),
-        ...getSideBar('resources/wk5', 'Servers with Node/Express'),
-        ...getSideBar('resources/wk6', 'Frontend Frameworks with Vue3'),
-        ...getSideBar('resources/wk7', 'Advancing with Vue3'),
-        ...getSideBar('resources/wk8-9', 'Professional Environments'),
-        ...getSideBar('resources/wk10', 'Foundations of C#'),
-        ...getSideBar('resources/wk11', 'Dotnet WebApi\'s')
-      ]
-    },
+    // nav: [
+    //   {
+    //     text: 'Resources',
+    //     link: '/resources/',
+    //   },
+    //   {
+    //     text: 'Vocab',
+    //     link: '/vocab/',
+    //   },
+    //   {
+    //     text: 'Codeworks',
+    //     link: 'https://boisecodeworks.com'
+    //   }
+    // ],
+    // sidebar: {
+    //   '/vocab/': [...getSideBar('vocab', 'Vocabulary')],
+    //   '/resources/': [
+    //     ...getSideBar('resources', 'Student Resources'),
+    //     ...getSideBar('resources/wk1', 'Building Blocks of Web Development'),
+    //     ...getSideBar('resources/wk2', 'Intro to Js'),
+    //     ...getSideBar('resources/wk3', 'Advancing with JS'),
+    //     ...getSideBar('resources/wk4', 'Asynchronous Code'),
+    //     ...getSideBar('resources/wk5', 'Servers with Node/Express'),
+    //     ...getSideBar('resources/wk6', 'Frontend Frameworks with Vue3'),
+    //     ...getSideBar('resources/wk7', 'Advancing with Vue3'),
+    //     ...getSideBar('resources/wk8-9', 'Professional Environments'),
+    //     ...getSideBar('resources/wk10', 'Foundations of C#'),
+    //     ...getSideBar('resources/wk11', 'Dotnet WebApi\'s')
+    //   ]
+    // },
   },
   // @ts-ignore
   markdown: {

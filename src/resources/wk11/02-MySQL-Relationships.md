@@ -1,7 +1,9 @@
 # Relationships
+
 SQL databases use things called keys (Primary keys and Foreign keys) in order to build relationships between tables. In this lesson, we'll discuss the difference between the two keys and how to use them, and we will also discuss the different types of relationships you can build with them. There are 3 relationship types: one-to-one, one-to-many, and many-to-many. 
 
 ### keys
+
 Remember in lesson one we discussed how SQL databases are strongly dependent on relationships? We use keys to build those relationships. A record on one table might be associated with a record on another table and the way they reference one another is through the use of primary and foreign keys. 
 
 ## Primary Keys
@@ -26,9 +28,6 @@ PRIMARY KEY (license_plate)
 )
 ```
 
-
-
-
 ### Foreign Keys
 
 Now that we have a primary key, what do we do with it? We use it as a foreign key on a different table. Foreign keys are used to reference data on another table. It's how we tell other tables where to look if they want to pull up a specific record. 
@@ -36,7 +35,6 @@ Now that we have a primary key, what do we do with it? We use it as a foreign ke
 Imagine you're standing in a garage full of 2015 Toyota Camrys and they are all black. If I ask you to go find a specific car and tell me it's mileage, how will you be able to identify the one I want? It would be pretty difficult unless you had a unique identifier, like the license plate number. In this example, you're another table that's using a foreign key (the license plate number) to find information.
 
 The syntax for delcaring a foreign key is incredibly similar to declaring a primary key, except with one added line - we just need to tell the current table what table the foreign key is coming from. Let's create a table for our customers and add a foreign key so that we can keep track of which vehicle the customer rented. Let's also establish a primary key in case a future table needs to reference the customer table.
-
 
 ```SQL
 CREATE TABLE customers (
@@ -77,6 +75,7 @@ FOREIGN KEY (vehicle_license) UNIQUE REFERENCES vehicle_inventory(license_plate)
 This would prevent other customers from renting the same vehicle - each car can only be rented by one driver, and each driver can only rent one car.
 
 ### One-To-Many
+
 One-to-one relationships are easy to understand and maintain, but they aren't the most practical in all cases. They are useful in very specific instances, but they are rigid and inflexible. 
 
 One of the more common data relationships is the one-to-many. What if we have one car being rented by a group of friends on a trip - there could be many drivers for that one car. 
@@ -105,7 +104,8 @@ FOREIGN KEY (license_number)
   REFERENCES customers(license_number)
   )
 ```
->*Important to note* the combination of AUTO_INCREMENT and NOT NULL will tell the database to fill in each record with an id and it will automatically count upwards. 
+
+> *Important to note* the combination of AUTO_INCREMENT and NOT NULL will tell the database to fill in each record with an id and it will automatically count upwards. 
 
 The first record you insert will have an id of 1, the next record will have an id of 2...etc. You will never have to manually provide this information, it will happen automatically upon creation of the record.
 
@@ -118,9 +118,9 @@ Identify an instance of each of the three relationships within a school (without
 # Advancing with Queries - Inner Join
 
 ## 1. Understanding the problem
+
 Let's imagine we have a relational table called classroomStudents with the following structure and inserts:
 
-<ClientOnly>
 <table>
 <tr>
 <th>id</th>
@@ -153,19 +153,18 @@ Let's imagine we have a relational table called classroomStudents with the follo
 <td>10</td>
 </tr>
 </table>
-</ClientOnly>
 
 Because Sql is heavily dependent on relationships the existence of such a table (like the one above) in a real life application is very likely. `classroomStudents` is an example of a many to many relationship as both classrooms and students can have many connections to the other.
 
-Let's think for a moment about the user experience, `UX`, if we performed a simple select query on the classroomStudents table. It would be a frustrating experience for the teacher to take attendance while having only arbitrarily assigned `id` values of the corresponding `student` inserts instead of their actual names. Likewise the students would all be late as they couldn't discover which actual classroom to be in based off of an arbitrarily assigned classroom id.
+Let's think for a moment about the user experience, `UX` , if we performed a simple select query on the classroomStudents table. It would be a frustrating experience for the teacher to take attendance while having only arbitrarily assigned `id` values of the corresponding `student` inserts instead of their actual names. Likewise the students would all be late as they couldn't discover which actual classroom to be in based off of an arbitrarily assigned classroom id.
 
 So the challenge at hand is to provide additional information about both the classroom and the student beyond what the table `classroomStudents` can provide. 
-
 
 We'll accomplish this with an `inner join` query. This will enable us to find a relational insert that we care about, and once found, then we'll use identifying information about a student from that insert to query the `students` table for the additional information about that student that we want to provide to the user/front-end.  We'll do the same for classrooms as well.
 
 ## 2. Utilizing Inner Joins
-We'll extend what we know so far about simple queries to incorporate an inner join to complete the task at hand. Let's extend our query incrementally to get an understanding for each part of the query in turn. Our first query will return all the information available on their respective tables about the classrooms and students referenced on `classroomStudents`, and looks like this: 
+
+We'll extend what we know so far about simple queries to incorporate an inner join to complete the task at hand. Let's extend our query incrementally to get an understanding for each part of the query in turn. Our first query will return all the information available on their respective tables about the classrooms and students referenced on `classroomStudents` , and looks like this: 
 
 ```sql
 SELECT * FROM classroomStudents cs
@@ -173,39 +172,41 @@ INNER JOIN students s ON s.id = cs.studentId
 INNER JOIN classrooms c ON c.id = cs.classroomId;
 ```
 
-Let's cover exactly what this code is doing. Remember that the `*` symbol stands for `all columns` or `everything`. So we're selecting all of the information available for each insert our query matches. This code is also using a feature of SQL we haven't used yet, namely `aliases`. Above we have three instances of an `alias` - 'cs', 's', 'c' which are the `aliases` for the tables classroomStudents, students, and classrooms respectively. An alias is declared following the first instance of the written table name and can be used in place of writting out the full table name. Using appropriately abbreviated aliases allows our code to be more condensed and even dry while still preserving readability.
+Let's cover exactly what this code is doing. Remember that the `*` symbol stands for `all columns` or `everything` . So we're selecting all of the information available for each insert our query matches. This code is also using a feature of SQL we haven't used yet, namely `aliases` . Above we have three instances of an `alias` - 'cs', 's', 'c' which are the `aliases` for the tables classroomStudents, students, and classrooms respectively. An alias is declared following the first instance of the written table name and can be used in place of writting out the full table name. Using appropriately abbreviated aliases allows our code to be more condensed and even dry while still preserving readability.
 
-Lastly, what is the `INNER JOIN` doing? Syntactically, following the Sql command `INNER JOIN` we provide the table name of the table that we want our query to look over. Then we specify a condition that will be true on the target insert of the referrenced table following the Sql keyword `ON`. Note that we provided aliases for both tables so we could use those aliases rather than the longer table names in our conditional.<br />
+Lastly, what is the `INNER JOIN` doing? Syntactically, following the Sql command `INNER JOIN` we provide the table name of the table that we want our query to look over. Then we specify a condition that will be true on the target insert of the referrenced table following the Sql keyword `ON` . Note that we provided aliases for both tables so we could use those aliases rather than the longer table names in our conditional.<br />
 Functionally, we are looking at each insert in classroomStudents and for each insert we are using the studentId value to find the correct student insert on the students table and the classroomId value to find the correct classroom insert on the classrooms table.
 
 So what does the object returned to us from this query look like exactly? It might be surprising to discover, though it should be clear why *post hoc*. Our query will return a collection (an array) full of objects populated with both classroom and student information. As our query is right now any object within the collection will have these properties with varying values:
+
 ```js
 {
-  // values from classroomStudents table
-  classroomId: 14,
-  studentId: 02,
-  // ---------------
+    // values from classroomStudents table
+    classroomId: 14,
+    studentId: 02,
+    // ---------------
 
-  // values from students table
-  grade: 'Junior',
-  // ---------------
+    // values from students table
+    grade: 'Junior',
+    // ---------------
 
-  // values from classrooms table
-  period: 02,
-  roomNum: 'ILC - 103'
-  // ---------------
+    // values from classrooms table
+    period: 02,
+    roomNum: 'ILC - 103'
+    // ---------------
 
-  // conflicting property names that got values populated from classrooms
-  // because classrooms was the last table in the query to be referenced
-  // so its data overwrote the values of these properties
-  name: 'Math',
-  id: 14,
-  // ---------------
+    // conflicting property names that got values populated from classrooms
+    // because classrooms was the last table in the query to be referenced
+    // so its data overwrote the values of these properties
+    name: 'Math',
+    id: 14,
+    // ---------------
 }
 ```
 
 ## 3. Continuing with Aliases
-Because both our students and classrooms inserts have the property 'name' we can't retrieve both values and save them simultaneously under the same key. But we need to do something so that the teacher can take roll call! It would be a band aid fix to simply change the order of our inner join statements from above because (though this would assign the value of the name property to be the student's 'name') we would have created the problem of not knowing the classroom's 'name'. Alas, `aliases`!
+
+Because both our students and classrooms inserts have the property 'name' we can't retrieve both values and save them simultaneously under the same key. But we need to do something so that the teacher can take roll call! It would be a band aid fix to simply change the order of our inner join statements from above because (though this would assign the value of the name property to be the student's 'name') we would have created the problem of not knowing the classroom's 'name'. Alas, `aliases` !
 
 Since we know of duplicate property names we're going to create new properties on the fly to store both values at the same time by utilizing multiple key value pairs. We've modified our query to now look like this: 
 
@@ -215,37 +216,39 @@ INNER JOIN students s ON s.id = cs.studentId
 INNER JOIN classrooms c ON c.id = cs.classroomId;
 ```
 
-Perhaps the craziest syntax surprise from the code above is that aliases may be used before they've been declared within the statement. You'll notice that the last two lines of our query haven't changed, but we did modify what columns we wanted to populate. We've listed several instructional commands about what columns to pull data from all separated with `,`'s. `cs.*` means that from the classroomStudents table we want all of the information on every insert. We did the same thing with the students table. For classrooms we used the `AS` keyword to specify that whatever value we pulled from the classroom's 'name' property we would save in a new property called 'className'. Lastly, because we can only either get all columns (`*`) or specify the columns you want, we needed to explicity request the additional columns from classrooms that we wanted to retrieve.
+Perhaps the craziest syntax surprise from the code above is that aliases may be used before they've been declared within the statement. You'll notice that the last two lines of our query haven't changed, but we did modify what columns we wanted to populate. We've listed several instructional commands about what columns to pull data from all separated with `, ` 's. `cs.*` means that from the classroomStudents table we want all of the information on every insert. We did the same thing with the students table. For classrooms we used the `AS` keyword to specify that whatever value we pulled from the classroom's 'name' property we would save in a new property called 'className'. Lastly, because we can only either get all columns ( `*` ) or specify the columns you want, we needed to explicity request the additional columns from classrooms that we wanted to retrieve.
 
 Any object within the collection returned from this new query will now have these properties with varying values:
+
 ```js
 {
-  // values from classroomStudents table
-  classroomId: 14,
-  studentId: 02,
-  // ---------------
+    // values from classroomStudents table
+    classroomId: 14,
+    studentId: 02,
+    // ---------------
 
-  // values from students table
-  name: 'Javi',
-  grade: 'Junior',
-  id: 02,  //Note there still exists the discrepency between cs.id and s.id
-  // ---------------
+    // values from students table
+    name: 'Javi',
+    grade: 'Junior',
+    id: 02, //Note there still exists the discrepency between cs.id and s.id
+    // ---------------
 
-  // values from classrooms table
-  className: 'Math'
-  period: 02,
-  roomNum: 'ILC - 103'
-  // ---------------
+    // values from classrooms table
+    className: 'Math'
+    period: 02,
+    roomNum: 'ILC - 103'
+    // ---------------
 }
 ```
 
 Congratulations! You've retrieved data efficiently and in a way that will benefit all your users!
 
 ## Challenge yourself
-- What are some other concrete examples of objects you may need to use an inner join to query information of?
-- Write your own inner join queries now and try to utilize aliases in multiple ways!
 
+* What are some other concrete examples of objects you may need to use an inner join to query information of?
+* Write your own inner join queries now and try to utilize aliases in multiple ways!
 # Stored Procedures
+
 What is a stored procedure? You can think of it as a function in your SQL database - it's a reusable command, or set of commands, that can take in paramaters and provide an output. Imagine you have a dog database, and you want to select dogs. You may not want to select all dogs, but you might want all dogs of breed A, breed B, and breed C; and perhaps you want dogs that are between one age and another age; let's say you might also want to add dogs that are known to have a certain temperment. That's a lot of conditions to be writing in your query, and if you find yourself making the same query over and over again, it would be beneficial to create a stored procedure to expedite the process.
 
 ### Syntax
@@ -263,7 +266,7 @@ END // -- end of procedure
 DELIMITER ; -- resets delimiter back to default
 ```
 
-Let's break this down. For the moment, don't worry about the word `DELIMITER`. Let's talk about everything in between, first.
+Let's break this down. For the moment, don't worry about the word `DELIMITER` . Let's talk about everything in between, first.
 
 Much like when you create a table, you want to use the `CREATE` keyword when creating a procedure. On the next line you can specify what paramater, or parameters, that the procedure will take in. You do not have to use paramaters, just like when writing functions you do not have to have paramaters. But if you do want them, they would go here. 
 
@@ -290,7 +293,6 @@ The entire time you've been using SQL you've been using the default delimiter: t
 
 When you create a procedure that has multiple commands, you need to be able to pass the default delimiter through to your server without mySQL interpreting it itself. The `DELIMITER` keyword alows you to change what the `DELIMITER` is. In our first example, we changed it from the semi-colon to a double forward slash so that we could temporarily use the semi-colon without it stopping our full procedure from being created. That is why after the `END` keyword you see a double forward slash. 
 
-
 ```SQL
 DELIMITER // -- declares a new delimiter
 CREATE PROCEDURE procedure_name -- name procedure here
@@ -309,7 +311,6 @@ If you have a procedure that only uses one command, you will not need to change 
 Occasionally you may find yourself in a situation where you are building a database and associated routes and you may need to dump all of your data and start over. However, it can be hard to write requests to your database when you have no data to request, and it would be tedious to insert dummy data row by row in all of your tables. 
 
 This is where stored procedures can be incredibly helpful - you can call a stored procedure to drop all of your tables, recreate them, and then insert data in your tables (either dummy data, or necessary data). The action of inserting data into your tables upon creation of them is called "seeding your database". 
-
 
 ### If Exists
 
@@ -338,6 +339,7 @@ VALUES (3, "Winston", "Husky", 1, "Mischevious");
 ```
 
 ## Daily Journal
+
 ### Answer the following questions
 1. What is the difference between a `primary key` and a `foreign key`
 
