@@ -216,12 +216,7 @@ Finally, inherited public members are not only accessible, they're part of the p
 
 To close this post, let's make it clear that all that we've covered today is just the tip of the iceberg when it comes to C# inheritance. There's a lot more to it than we could realistically cover in a single blog post. In the article, you've learned the basics of inheritance. We've defined inheritance, explaining what it means for a class to inherit from another. We've looked at things like the transitive nature of inheritance, how inheritance defines an "is-a" relationship, and how visibility affects inheritance.
 
-<br>
-<br>
-<hr>
-<small>Schults, C. (2019, October 01). C# Inheritance: A Complete but Gentle Introduction. Retrieved November 12, 2020, from https://blog.submain.com/c-inheritance-complete-introduction/</small>
-<br>
-<br>
+Schults, C. (2019, October 01). C# Inheritance: A Complete but Gentle Introduction. Retrieved November 12, 2020, from https://blog.submain.com/c-inheritance-complete-introduction/
 
 ## Daily Journal
 ### Answer the following questions

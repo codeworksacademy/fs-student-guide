@@ -198,12 +198,7 @@ Actions can run on any language, including Node.js, Rust, Python, PHP and lots m
 
 GitHub Actions has a very strong community of developers with several templates of prebuilt actions, examples, and workflows so you don't have to start from scratch. Feel free to play with it and get familiar so you can leverage this amazing tool.
 
-<br>
-<br>
-<hr>
-<small>Mulonda, Y. (2020, July 06). What are GitHub Actions and How to Use Them. Retrieved November 10, 2020, from https://blog.bitsrc.io/what-are-github-actions-and-how-to-use-them-e89904201a41</small>
-<br>
-<br>
+Mulonda, Y. (2020, July 06). What are GitHub Actions and How to Use Them. Retrieved November 10, 2020, from https://blog.bitsrc.io/what-are-github-actions-and-how-to-use-them-e89904201a41
 
 ## Daily Journal
 ### Answer the following questions

@@ -65,12 +65,7 @@ If you don't have extra budget, you can still do an informal version of A/B test
 
 Designing strong UX doesn't need to be complicated, and you don't need to be tech savvy to map out customer-friendly experiences. All you need are some sticky notes to write down potential customers' actions and emotions, a whiteboard or notepad to sketch out how your site or app should look, and a willingness to test early and often.
 
-<br>
-<br>
-<hr>
-<small>Pinto, R. (2018, August). 4 steps to creating good UX design - Think with Google. Retrieved November 16, 2020, from https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/strong-audience-design/</small>
-<br>
-<br>
+Pinto, R. (2018, August). 4 steps to creating good UX design - Think with Google. Retrieved November 16, 2020, from https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/strong-audience-design/
 
 ## Daily Journal
 ### Answer the following questions

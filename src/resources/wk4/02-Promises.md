@@ -147,12 +147,7 @@ This post is just an introduction to Promises, and I hope you found it helpful f
 
 Thank you for reading!
 
-<br>
-<br>
-<hr>
-<small>Eygi, Cem. “JavaScript Promise Tutorial: Resolve, Reject, and Chaining in JS and ES6.” FreeCodeCamp.org, FreeCodeCamp.org, 12 June 2020, www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/. </small>
-<br>
-<br>
+Eygi, Cem. “JavaScript Promise Tutorial: Resolve, Reject, and Chaining in JS and ES6.” FreeCodeCamp.org, FreeCodeCamp.org, 12 June 2020, www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/. 
 
 ## Daily Journal
 ### Answer the following questions

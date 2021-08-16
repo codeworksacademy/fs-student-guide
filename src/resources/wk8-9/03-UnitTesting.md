@@ -90,12 +90,7 @@ Unit tests also help you identify ideas that were not well-thought. When you fin
 
 I compared software engineering to mechanical engineering to make a few points about testable components. But most of the time software engineering is more like gardening than engineering. Unlike a car or a house, which once built stay pretty much the same for years, a software system evolves constantly. Some parts grow, others shrink, and some parts have to be pruned. From this point of view, unit tests are like a scaffold which guides the growth of the code.
 
-<br>
-<br>
-<hr>
-<small>Dascalu, C. (2018, April 27). Unit testing - why? Retrieved November 16, 2020, from https://medium.com/@corneliu/unit-testing-why-3490d08e89f2</small>
-<br>
-<br>
+Dascalu, C. (2018, April 27). Unit testing - why? Retrieved November 16, 2020, from https://medium.com/@corneliu/unit-testing-why-3490d08e89f2
 
 ## Daily Journal
 ### Answer the following questions

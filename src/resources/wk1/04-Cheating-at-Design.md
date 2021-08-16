@@ -1,8 +1,6 @@
 # Cheating at Design
 #### *Improving your designs with tactics instead of talent.*
 
-<hr>
-
 Every web developer inevitably runs into situations where they need to make visual design decisions, whether they like it or not.
 
 Maybe the company you work for doesn't have a full-time designer and you need to implement the UI for a new feature on your own. Or maybe you're hacking on a side-project and you want it to look better than *yet-another-Bootstrap-site.*
@@ -12,7 +10,6 @@ It's easy to throw your hands up and say, *"I'll never be able to make this look
 Here are seven simple ideas you can use to improve your designs today*.*
 
 ## Use color and weight to create hierarchy instead of size
-<br>
 
 ![Image for post](https://miro.medium.com/max/4590/1*KYZikUrx9F02cJU9kpn_gQ.png)
 
@@ -46,7 +43,6 @@ Similarly, two font weights is usually enough for UI work:
 Stay away from font weights under 400 for UI work; they can work for large headings but are too hard to read at smaller sizes. If you're considering using a lighter weight to de-emphasize some text, use a lighter color or smaller font size instead.
 
 ## Don't use grey text on colored backgrounds
-<br>
 
 ![Image for post](https://miro.medium.com/max/3150/1*ajjrhpp-l3GDG7ne7Am8fw.png)
 
@@ -61,14 +57,12 @@ Making the text closer to the background color is what actually helps create hie
 There are two ways you can reduce contrast when working with colorful backgrounds:
 
 ### 1. Reduce the opacity of white text
-<hr>
 
 Use white text and lower the opacity. This lets the background color bleed through a bit, de-emphasizing the text in a way that doesn't clash with the background.
 
 ![Image for post](https://miro.medium.com/max/3150/1*OMntEW2V5jPXrZR6CjrBFQ.png)
 
 ### 2. Hand-pick a color that's based on the background color
-<hr>
 
 This works better than reducing the opacity when your background is an image or pattern, or when reducing the opacity makes the text feel too dull or washed out.
 
@@ -77,7 +71,6 @@ This works better than reducing the opacity when your background is an image or 
 Choose a color that's the same hue as the background, adjusting saturation and lightness until it looks right to you.
 
 ## Offset your shadows
-<br>
 
 ![Image for post](https://miro.medium.com/max/4590/1*LisFGBtYOvR-3cwFTzTDUw.png)
 
@@ -92,7 +85,6 @@ This applies to inset shadows like you might use on wells or form inputs too:
 If you're interested in learning more about shadow design, the [Material Design Guidelines](https://material.io/guidelines/material-design/elevation-shadows.html) are a fantastic primer.
 
 ## Use fewer borders
-<br>
 
 ![Image for post](https://miro.medium.com/max/4590/1*fNm6hXxnBvIcHGp9DQRdRQ.png)
 
@@ -103,27 +95,23 @@ While borders are a great way to distinguish two elements from one another, they
 The next time you find yourself reaching for a border, try one of these ideas instead:
 
 ## Use a box shadow
-<br>
 Box shadows do a great job of outlining an element like a border would, but can be more subtle and accomplish the same goal without being as distracting.
 
 ![Image for post](https://miro.medium.com/max/3150/1*Pm5PyS0vZ65GuGu8erPRfA.png)
 
 ## Use two different background colors
-<br>
 
 Giving adjacent elements slightly different background colors is usually all you need to create distinction between them. If you're already using different background colors in addition to a border, try removing the border; you might not need it.
 
 ![Image for post](https://miro.medium.com/max/3150/1*9j89WYXMqsnb_A1v8heXaw.png)
 
 ## Add extra spacing
-<br>
 
 What better way to create separation between elements than to simply increase the separation? Spacing things further apart is a great way to create distinction between groups of elements without introducing any new UI at all.
 
 ![Image for post](https://miro.medium.com/max/4200/1*7CEsoYdtFPjMBqpDB58HqQ.png)
 
 ##  Don't blow up icons that are meant to be small
-<br>
 
 ![Image for post](https://miro.medium.com/max/4590/1*57g05Gl-FjDtcCUtaPPOLw.png)
 
@@ -144,7 +132,6 @@ This lets you keep the actual icon closer to its intended size, while still fill
 If you have the budget, you could also use a premium icon set designed to be used at larger sizes, like [Heroicons](http://www.heroicons.com/) or [Iconic](https://useiconic.com/).
 
 ## Use accent borders to add color to a bland design
-<br>
 
 
 ![Image for post](https://miro.medium.com/max/4590/1*uwsVo34TWzKM91Gyqsh88Q.png)
@@ -170,7 +157,6 @@ It doesn't take any graphic design talent to add a colored rectangle to your UI,
 *Have a hard time picking colors? Try choosing from a constrained palette like *[*Dribbble's color search*](https://dribbble.com/colors)* to avoid feeling overwhelmed by the endless possibilities of a traditional color picker.*
 
 ## Not every button needs a background color
-<br>
 
 ![Image for post](https://miro.medium.com/max/3060/1*SIfuJd-3ZFYyA_W1Nme1Yw.png)
 
@@ -206,12 +192,7 @@ Save the big, red, and bold styling for when that negative action actually *is* 
 
 ![Image for post](https://miro.medium.com/max/2800/1*cuYcwjOO26sKHImHaY6yFA.png)
 
-<br>
-<br>
-<hr>
-<small> Source:  Schoger, Adam Wathan &amp; Steve. 7 Practical Tips for Cheating at Design. 16 Jan. 2019, medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886. </small>
-<br>
-<br>
+ Source:  Schoger, Adam Wathan &amp; Steve. 7 Practical Tips for Cheating at Design. 16 Jan. 2019, medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886. 
 
 ## Daily Journal
 ### Answer the following questions

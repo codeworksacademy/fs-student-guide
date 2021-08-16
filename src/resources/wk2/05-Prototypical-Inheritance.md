@@ -164,12 +164,7 @@ There are a lot of other interesting things to discuss around prototypal inherit
 
 For example, `Object.assign` is a great way of improving factories while keeping your code to a minimum. `Object.create` also has some interesting use cases.
 
-<br>
-<br>
-<hr>
-<small>S, Rajat. Understanding JavaScript's Prototypal Inheritance. 28 Mar. 2019, blog.bitsrc.io/understanding-javascripts-prototypal-inheritance-354292253bcb.</small> 
-<br>
-<br>
+S, Rajat. Understanding JavaScript's Prototypal Inheritance. 28 Mar. 2019, blog.bitsrc.io/understanding-javascripts-prototypal-inheritance-354292253bcb.
 
 ## Daily Journal
 ### Answer the following questions

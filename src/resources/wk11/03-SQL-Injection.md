@@ -81,12 +81,7 @@ Stored procedures can also make SQLi a lot harder --- although not impossible. I
 
 SQL injection is the lowest of the low-hanging web application security fruit. This well-known attack vector is easily exploited by unsophisticated attackers, but it is easily mitigated with a small amount of due diligence. In 2018 there is no longer any excuse for a web application to be vulnerable to SQL injection. This is what minimum due diligence in web application security looks like, folks.
 
-<br>
-<br>
-<hr>
-<small>Porup, J. (2018, October 02). What is SQL injection? How these attacks work and how to prevent them. Retrieved November 13, 2020, from https://www.csoonline.com/article/3257429/what-is-sql-injection-how-these-attacks-work-and-how-to-prevent-them.html</small>
-<br>
-<br>
+Porup, J. (2018, October 02). What is SQL injection? How these attacks work and how to prevent them. Retrieved November 13, 2020, from https://www.csoonline.com/article/3257429/what-is-sql-injection-how-these-attacks-work-and-how-to-prevent-them.html
 
 ## Daily Journal
 ### Answer the following questions

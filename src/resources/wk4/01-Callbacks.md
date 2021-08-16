@@ -264,12 +264,7 @@ Regardless of the method you choose, always **handle every error** and **keep yo
 
 You can find the source for this [on github](http://github.com/maxogden/callback-hell).
 
-<br>
-<br>
-<hr>
-<small>Ogden, Max. Callback Hell, 4 Feb. 2016, callbackhell.com </small>
-<br>
-<br>
+Ogden, Max. Callback Hell, 4 Feb. 2016, callbackhell.com 
 
 ## Daily Journal
 ### Answer the following questions

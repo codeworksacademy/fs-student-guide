@@ -227,12 +227,7 @@ This design pattern equips you to go as far as your imagination is willing to go
 
 I hope you see how much, with a little discipline and effort, you can do in plain JavaScript. The new features in the language, such as ES6, help you write some succinct code that is reusable.
 
-<br>
-<br>
-<hr>
-<small>Reyes, Camilo. JavaScript Design Patterns: The Observer Pattern. 17 June 2018, www.sitepoint.com/javascript-design-patterns-observer-pattern/. </small>
-<br>
-<br>
+Reyes, Camilo. JavaScript Design Patterns: The Observer Pattern. 17 June 2018, www.sitepoint.com/javascript-design-patterns-observer-pattern/. 
 
 ## Daily Journal
 ### Answer the following questions

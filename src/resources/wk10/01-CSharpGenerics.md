@@ -21,23 +21,23 @@ The system stores 100 in the memory space allocated for the variable `i`. The fo
 [![Memory Allocation of Value Type Variable](https://www.tutorialsteacher.com/Content/images/csharp/value-type-memory-allocation.png)](https://www.tutorialsteacher.com/Content/images/csharp/value-type-memory-allocation.png)
 
 The following data types are all of value type:
-<ul style="columns: 3">
-  <li>bool</li>
-  <li>byte</li>
-  <li>char</li>
-  <li>decimal</li>
-  <li>double</li>
-  <li>enum</li>
-  <li>float</li>
-  <li>int</li>
-  <li>long</li>
-  <li>sbyte</li>
-  <li>short</li>
-  <li>struct</li>
-  <li>uint</li>
-  <li>ulong</li>
-  <li>ushort</li>
-</ul>
+
+- bool
+- byte
+- char
+- decimal
+- double
+- enum
+- float
+- int
+- long
+- sbyte
+- short
+- struct
+- uint
+- ulong
+- ushort
+
 
 ### Passing Value Type Variables
 
@@ -83,12 +83,11 @@ The following image shows how the system allocates the memory for the above stri
 As you can see in the above image, the system selects a random location in memory `(0x803200)` for the variable `s`. The value of a variable `s` is `0x600000`, which is the memory address of the actual data value. Thus, reference type stores the address of the location where the actual value is stored instead of the value itself.
 
 The followings are reference type data types:
-<ul style="columns: 2">
-<li>String</li>
-<li>Arrays</li>
-<li>Class</li>
-<li>Delegate</li>
-</ul>
+
+- String
+- Arrays
+- Class
+- Delegate
 
 ### Passing Reference Type Variables
 
@@ -126,11 +125,7 @@ The default value of a reference type variable is `null` when they are not initi
 A value type variable cannot be null because it holds value, not a memory address. C# 2.0 introduced [nullable types](https://www.tutorialsteacher.com/csharp/csharp-nullable-types), using which you can assign null to a value type variable or declare a value type variable without assigning a value to it.
 
 
-<br>
-<br>
-<hr>
-<small>TutorialsTeacher. (2020). Value Type and Reference Type. Retrieved November 12, 2020, from https://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type</small>
-<br>
+TutorialsTeacher. (2020). Value Type and Reference Type. Retrieved November 12, 2020, from https://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type
 
 ## Pointer Types
 A pointer type declaration takes one of the following forms:
@@ -155,9 +150,6 @@ int *p1, *p2, *p3;   // Invalid in C#
 ```
 A pointer cannot point to a reference or to a struct that contains references, because an object reference can be garbage collected even if a pointer is pointing to it. The garbage collector does not keep track of whether an object is being pointed to by any pointer types.
 
-
-<br>
-<br>
 
 ## Daily Journal
 ### Answer the following questions

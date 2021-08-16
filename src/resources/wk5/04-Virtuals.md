@@ -78,7 +78,6 @@ var ironman = new User({
 ironman.fullname = 'Tony Stark';
 console.log(ironman.first); // Tony
 console.log(ironman.last);  // Stark
-
 ```
 
 ### Queries and Field Selection
@@ -90,14 +89,9 @@ Virtuals are NOT available for document queries or field selection. Only non-vir
 As you see, virtual properties aren't static model properties. They are additional model functions returning values based on the default schema fields.
 
 
-<small>Mongoose Documentation: [Virtuals](http://mongoosejs.com/docs/guide.html#virtuals)</small>
+Mongoose Documentation: [Virtuals](http://mongoosejs.com/docs/guide.html#virtuals)
 
-<br>
-<br>
-<hr>
-<small>Pöhls on March 05 2015, M. (n.d.). Understanding Virtuals in Mongoose. Retrieved November 11, 2020, from https://futurestud.io/tutorials/understanding-virtuals-in-mongoose</small>
-<br>
-<br>
+Pöhls on March 05 2015, M. (n.d.). Understanding Virtuals in Mongoose. Retrieved November 11, 2020, from https://futurestud.io/tutorials/understanding-virtuals-in-mongoose
 
 ## Daily Journal
 ### Answer the following questions

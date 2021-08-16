@@ -196,12 +196,7 @@ Hopefully this tutorial was useful for you in seeing how to get started with nes
 
 Other things to keep in mind on the topic --- we could have routes defined with dynamic segments such as `path: '/location/:id'`. Then, on the views for those routes we can reference that id as `this.$route.params`. This is useful when you have more data of a particular type (users, pictures, etc.) that you are wishing to display on your site/app.
 
-<br>
-<br>
-<hr>
-<small>Mohan, P. (2020, May 02). Using Nested Routes in Vue.js. Retrieved November 13, 2020, from https://www.digitalocean.com/community/tutorials/vuejs-nested-routes</small>
-<br>
-<br>
+Mohan, P. (2020, May 02). Using Nested Routes in Vue.js. Retrieved November 13, 2020, from https://www.digitalocean.com/community/tutorials/vuejs-nested-routes
 
 ## Daily Journal
 ### Answer the following questions

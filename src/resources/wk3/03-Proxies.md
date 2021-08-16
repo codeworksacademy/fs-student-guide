@@ -194,12 +194,7 @@ In the above examples, we've seen the `get` and the `set` traps. There are actua
 
 Proxy Objects only just came into my radar after going through [this article about them](https://davidwalsh.name/watch-object-changes?utm_source=blog.campvanilla.com), and I can already see the usefulness of them in the code I write everyday!]
 
-<br>
-<br>
-<hr>
-<small>Seelan, Abinav. “An Intro to Javascript Proxy Objects.” Medium, Campvanilla, 23 Dec. 2017, blog.campvanilla.com/advanced-guide-javascript-proxy-objects-introduction-301c0fce9432. </small>
-<br>
-<br>
+Seelan, Abinav. “An Intro to Javascript Proxy Objects.” Medium, Campvanilla, 23 Dec. 2017, blog.campvanilla.com/advanced-guide-javascript-proxy-objects-introduction-301c0fce9432. 
 
 ## Daily Journal
 ### Answer the following questions

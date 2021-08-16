@@ -140,12 +140,7 @@ Let's see what this looks like. You'll apply *align-self* to two squares, and fo
 
 Even though we've just scratched the surface of Flexbox, these commands should be enough for you to handle most basic alignments --- and to vertically align to your heart's content.
 
-<br>
-<br>
-<hr>
-<small> Source: freeCodeCamp.org. How Flexbox Works - Explained with Big, Colorful, Animated Gifs. 19 Jan. 2017, www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/. </small>
-<br>
-<br>
+ Source: freeCodeCamp.org. How Flexbox Works - Explained with Big, Colorful, Animated Gifs. 19 Jan. 2017, www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/. 
 
 ## Daily Journal
 ### Answer the following questions

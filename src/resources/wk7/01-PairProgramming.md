@@ -82,12 +82,7 @@ Empirical
 -   Most empirical studies (14 out of the above mentioned 18) suffer from one common flaw often cited as an obstacle to generalizing conclusions: they are conducted with "convenience samples" of graduate or undergraduate students rather than on professionals in realistic work conditions
 
 
-<br>
-<br>
-<hr>
-<small>Alliance, A. (2019, September 25). Pair Programming: Does It Really Work? Retrieved November 16, 2020, from https://www.agilealliance.org/glossary/pairing/</small>
-<br>
-<br>
+Alliance, A. (2019, September 25). Pair Programming: Does It Really Work? Retrieved November 16, 2020, from https://www.agilealliance.org/glossary/pairing/
 
 ## Daily Journal
 ### Answer the following questions

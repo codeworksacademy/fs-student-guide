@@ -271,12 +271,7 @@ Given the type of the enum, the *GetValues* method of System.Enum will return an
 
 Enums are lists of strongly typed constants with members that are symbolic names, corresponding to an underlying integral type. Enum base types can be changed and member values can be specified. The System.Enum .NET Framework Class Library type is the base class of enum types. It contains methods that allow you to work with enums in different ways, such as working with a list of names or values, converting from value to name, and converting from name to value. For more information on the System.Enum type, see the .NET Framework SDK documentation.
 
-<br>
-<br>
-<hr>
-<small>Friedman, J. (2019, June 18). C# Enum: Learning the Essentials in Lesson 17. Retrieved November 12, 2020, from http://csharp-station.com/Tutorial/CSharp/Lesson17</small>
-<br>
-<br>
+Friedman, J. (2019, June 18). C# Enum: Learning the Essentials in Lesson 17. Retrieved November 12, 2020, from http://csharp-station.com/Tutorial/CSharp/Lesson17
 
 ## Daily Journal
 ### Answer the following questions

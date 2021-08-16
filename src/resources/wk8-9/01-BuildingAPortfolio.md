@@ -106,12 +106,7 @@ Plans are really cheap, especially for new clients. The investment is fully wort
 You don't want to go for the complex route here. Don't distract people from the great work you have done. I believe a simple website with three pages is enough:
 
 
-<br>
-<br>
-<hr>
-<small>Borrelli, P. (2020, June 10). An Honest Guide to Build a Decent and Powerful Developer Portfolio. Retrieved November 16, 2020, from https://medium.com/better-programming/an-honest-guide-to-build-a-decent-and-powerful-developer-portfolio-2319f2cc2c19</small>
-<br>
-<br>
+Borrelli, P. (2020, June 10). An Honest Guide to Build a Decent and Powerful Developer Portfolio. Retrieved November 16, 2020, from https://medium.com/better-programming/an-honest-guide-to-build-a-decent-and-powerful-developer-portfolio-2319f2cc2c19
 
 ## Daily Journal
 ### Answer the following questions

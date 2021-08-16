@@ -168,12 +168,7 @@ This is a lot of information to digest. Here's a list of the important stuff:
 *   Functions *always* `return` a value. In JavaScript, if no `return` value is specified, the function will return `undefined` by default.
 *   Functions are *objects*.
 
-<br>
-<br>
-<hr>
-<small>Morelli, Brandon. “JavaScript Functions - Understanding The Basics.” Medium, Codeburst, 14 Feb. 2018, codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99.</small>
-<br>
-<br>
+Morelli, Brandon. “JavaScript Functions - Understanding The Basics.” Medium, Codeburst, 14 Feb. 2018, codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99.
 
 ## Daily Journal
 ### Answer the following questions

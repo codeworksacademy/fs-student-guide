@@ -1,6 +1,6 @@
-<img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" height="200" />
-
 # CodeWorks Student Workbook
+
+![workbook](https://bcw.blob.core.windows.net/public/img/8600856373152463)
 
 > Welcome, we are excited to have you join us on your journey of becoming a Software Developer!
 
@@ -16,15 +16,14 @@ Remember to keep your posts professional and truthful.
 
 To deploy your new blog please follow the instructions found here [Getting Started](./setup-instructions/readme.md)
 
-
 ## Adding a blog post
 
 To add a new blog post create a `markdown` file (***.md***) in any of the week folders found in `src -> reflections -> wk`
 
-Files in the week folders are automatically loaded so to maintain order in your blog posts filenames should match the following format `01-topic.md`. These markdown files will be loaded in the sidebar of your blog and will have the name of the `h1` or `# title` listed. If a heading is not the first line of the markdown file the file name will appear in the sidebar. 
-
+Files in the week folders are automatically loaded so to maintain order in your blog posts filenames should match the following format `01-topic.md` . These markdown files will be loaded in the sidebar of your blog and will have the name of the `h1` or `# title` listed. If a heading is not the first line of the markdown file the file name will appear in the sidebar. 
 
 ___basic markdown guide___
+
 ```markdown
 # Every file starts with a heading
 
@@ -36,14 +35,10 @@ a line break uses three hyphens
 
 ---
 
-this is an img: ![codeworks-logo](https://bcw.blob.core.windows.net/public/img/8600856373152463)
+this is an img: 
 
+![codeworks-logo](https://bcw.blob.core.windows.net/public/img/8600856373152463)
 
-*itallics*, **bold**, ***bold-itallics***, `keyword` 
-
-
-<section>
-    <kbd style="color:purple">HTML</kbd> is supported as well
-</section>
+*itallics*, **bold**, ***bold-itallics***, `keyword`
 
 ```

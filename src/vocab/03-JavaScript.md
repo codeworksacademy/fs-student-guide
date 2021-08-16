@@ -1,7 +1,6 @@
 # JavaScript
 
 **JavaScript** is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. 
-<hr>
 
 
 ## Data and Structure types
@@ -61,11 +60,11 @@ yourName === myName  // => false
 
 ### Variable keywords
 variable keywords are used to declare the value of a variable.
-<ul>
-<li><b>var</b> declares a varible with global scope</li>
-<li><b>let</b> declares a variable with a local scope</li>
-<li><b>const</b> declares a variable with a local scope, however it's value cannot be changed after declaration.</li>
-</ul>
+
+- **var** declares a varible with global scope
+- **let** declares a variable with a local scope
+- **const** declares a variable with a local scope, however it's value cannot be changed after declaration.
+
 
 ## Operators
 
@@ -74,51 +73,45 @@ variable keywords are used to declare the value of a variable.
 ### Arithmetic Operators
 used to perform arithmetic between variables and/or values.
 
-<ul>
-<li><b>+  </b>Addition</li>
-<li><b>- </b>Subtraciton</li>
-<li><b>* </b>Multiplication</li>
-<li><b>** </b>Exponentiation</li>
-<li><b>/ </b>Division</li>
-<li><b>% </b>Modulus (division remainder)</li>
-<li><b>++ </b>Increment</li>
-<li><b>-- </b>Decrement</li>
-</ul>
-
+- **+** Addition
+- **-** Subtraciton
+- `*` Multiplication
+- `**` Exponentiation
+- **/**Division
+- **%**Modulus (division remainder)
+- **++**Increment
+- **--**Decrement
 
 ### Assignment Operators
 used to assign values to variables
 
-<ul>
-<li><b>= </b></li>
-<li><b>+= </b></li>
-<li><b>-=</b></li>
-<li><b>*=</b></li>
-<li><b>/=</b></li>
-<li><b>%=</b></li>
-</ul>
+- **=**
+- **+=**
+- **-=**
+- ***=**
+- **/=**
+- **%=**
 
 ### Comparison Operators
 
 these opperators are used to determine a 'truthy' or 'falsy' value.  these can be used in conjunction with other statements to run or not run certain lines of code under certain conditions.
-<ul>
-<li>== is equal</li>
-<li>!= is not equal</li>
-<li>=== strictly equals</li>
-<li>> greater than</li>
-<li>< less than</li>
-<li>>= greater than or equal too</li>
-<li><= less than or equal too</li>
-</ul>
+
+- **==** is equal
+- **!=** is not equal
+- **===** strictly equals
+- **>** greater than
+- **<** less than
+- **>=** greater than or equal too
+- **<=** less than or equal too
+
 
 ### Logical Operators
 Logical operators are used to determine the logic between variables or values.
 
-<ul>
-<li><b>&&</b> and</li>
-<li><b>||</b> or</li>
-<li><b>!</b> not</li>
-</ul>
+- **&&** and
+- **||** or
+- **!** not
+
 
 ## Functions 
 
@@ -132,13 +125,10 @@ Logical operators are used to determine the logic between variables or values.
 
 **Conditional Statements**  are used to perform different actions based on different conditions. 
 
-<ul>
-<li><b>if</b> is used to specity a block of code to executed, <i>if</i> a condition is 'truthy' </li>
-<li><b>else</b>is used to specify a block of code to executed, if the same condition of a proceeding <i>if</i> statement is 'falsy'</li>
-<li><b>else if</b> is used to specify a new condition to test if the first condition is false</li>
-<li><b>switch</b> this is used to specify many alternative conditions and corresponding blocks of code to be executed</li>
-</ul>
-
+- ** if** is used to specity a block of code to executed, `if` a condition is 'truthy' 
+- ** else**is used to specify a block of code to executed, if the same condition of a proceeding `if` statement is 'falsy'
+- ** else if** is used to specify a new condition to test if the first condition is false
+- ** switch** this is used to specify many alternative conditions and corresponding blocks of code to be executed
 
 ## Loops
 

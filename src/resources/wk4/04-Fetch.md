@@ -157,12 +157,7 @@ Definitely, `XMLHttpRequest` wasn't made for the things we are using it today. A
 
 Let's start fetching !!
 
-<br>
-<br>
-<hr>
-<small>Bangare, Swapnil. “The Fetch API.” Medium, Beginner's Guide to Mobile Web Development, 25 Apr. 2018, medium.com/beginners-guide-to-mobile-web-development/the-fetch-api-2c962591f5c. </small>
-<br>
-<br>
+Bangare, Swapnil. “The Fetch API.” Medium, Beginner's Guide to Mobile Web Development, 25 Apr. 2018, medium.com/beginners-guide-to-mobile-web-development/the-fetch-api-2c962591f5c. 
 
 ## Daily Journal
 ### Answer the following questions

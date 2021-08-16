@@ -292,12 +292,7 @@ console.log(updated)
 
 ![Ryu document with Dejin Hadoken.](https://zellwk.com/images/2019/mongoose-subdocuments/ryu-3.png)
 
-<br>
-<br>
-<hr>
-<small>Liew, Z. (2019, December 18). Mongoose 101: Working with subdocuments. Retrieved November 10, 2020, from https://zellwk.com/blog/mongoose-subdocuments/</small>
-<br>
-<br>
+Liew, Z. (2019, December 18). Mongoose 101: Working with subdocuments. Retrieved November 10, 2020, from https://zellwk.com/blog/mongoose-subdocuments/
 
 ## Daily Journal
 ### Answer the following questions

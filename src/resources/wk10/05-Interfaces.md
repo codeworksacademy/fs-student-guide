@@ -102,12 +102,7 @@ The IProduct and IProductManager interfaces are examples of interface overuse. B
 ## Conclusion
 By using interfaces, you can remove the unnecessary couplings in your code and make your code easily testable. However, overuse of interfaces should be avoided. Use interfaces only when there will be more than one implementation of them. You can also use interfaces when you have a class that has many roles to play or that has multiple responsibilities. In this case your class can implement multiple interfaces --- one for each role.
 
-<br>
-<br>
-<hr>
-<small>Kanjilal, M., &amp; Kanjilal, J. (2019, May 06). How not to use interfaces in C#. Retrieved November 12, 2020, from https://www.infoworld.com/article/3391960/how-not-to-use-interfaces-in-c.html</small>
-<br>
-<br>
+Kanjilal, M., &amp; Kanjilal, J. (2019, May 06). How not to use interfaces in C#. Retrieved November 12, 2020, from https://www.infoworld.com/article/3391960/how-not-to-use-interfaces-in-c.html
 
 ## Daily Journal
 ### Answer the following questions

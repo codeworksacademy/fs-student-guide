@@ -36,12 +36,7 @@ One of CBA's most glaring issues is a propensity towards over-engineering. In th
 
 You don't need me to tell you that CBA is gaining a lot of traction in the development community. As React.js popularizes this concept, both the Ember.js and Angular2 development teams are making the effort to incorporate components as a more important feature within their respective frameworks. CBA represents a type of architecture that encourages freedom and a respite from the rigidity that traditional MVC frameworks have made commonplace. For developers that want more control over their applications and a greater range of customization, components just might be the answer.
 
-<br>
-<br>
-<hr>
-<small>Shapiro, D. (2016, June 16). Understanding Component-Based Architecture. Retrieved November 11, 2020, from https://medium.com/@dan.shapiro1210/understanding-component-based-architecture-3ff48ec0c238</small>
-<br>
-<br>
+Shapiro, D. (2016, June 16). Understanding Component-Based Architecture. Retrieved November 11, 2020, from https://medium.com/@dan.shapiro1210/understanding-component-based-architecture-3ff48ec0c238
 
 ## Daily Journal
 ### Answer the following questions

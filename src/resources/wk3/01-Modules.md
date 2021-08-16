@@ -209,12 +209,7 @@ ES6 Modules are one of the biggest features introduced in modern browsers. Moder
 
 You should also know that ES6 modules are not supported in all browsers. For production applications, transpilers like Webpack and Babel are used to convert our code from ES6 to ES5 to ensure cross-browser compatibility
 
-<br>
-<br>
-<hr>
-<small>Ayodeji, Bolaji. “Introduction to ES6 Modules.” Medium, Backticks &amp; Tildes, 17 May 2019, medium.com/backticks-tildes/introduction-to-es6-modules-49956f580da. </small>
-<br>
-<br>
+Ayodeji, Bolaji. “Introduction to ES6 Modules.” Medium, Backticks &amp; Tildes, 17 May 2019, medium.com/backticks-tildes/introduction-to-es6-modules-49956f580da. 
 
 ## Daily Journal
 ### Answer the following questions

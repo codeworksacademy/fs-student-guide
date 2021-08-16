@@ -366,12 +366,7 @@ However, there are always more things to learn. Vue (and software development in
 
 In order to keep learning more about Vue, and to learn things as I figure them out myself, join my email list below for weekly updates!
 
-<br>
-<br>
-<hr>
-<small>Thiessen, M. (2019, July). How to Use Props in Vue: The Ultimate Guide (with Examples). Retrieved November 12, 2020, from https://michaelnthiessen.com/vue-props-ultimate-guide/</small>
-<br>
-<br>
+Thiessen, M. (2019, July). How to Use Props in Vue: The Ultimate Guide (with Examples). Retrieved November 12, 2020, from https://michaelnthiessen.com/vue-props-ultimate-guide/
 
 ## Daily Journal
 ### Answer the following questions

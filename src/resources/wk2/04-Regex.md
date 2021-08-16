@@ -305,12 +305,7 @@ Let's break that down and see what's going on up there.
 
 Regular expression can be fairly complex at times, but having a proper understanding of the above concepts will help you understand more complex regex patterns easily. You can learn more about regex [here ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)and practice it [here](https://hackerrank.com/domains/regex).
 
-<br>
-<br>
-<hr>
-<small>Arora, Sukhjinder. “A Practical Guide to Regular Expressions (RegEx) In JavaScript.” Medium, Bits and Pieces, 29 Mar. 2019, blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4. </small>
-<br>
-<br>
+Arora, Sukhjinder. “A Practical Guide to Regular Expressions (RegEx) In JavaScript.” Medium, Bits and Pieces, 29 Mar. 2019, blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4. 
 
 ## Daily Journal
 ### Answer the following questions

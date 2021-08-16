@@ -510,12 +510,7 @@ You are a human and your brain needs breaks. Your body needs breaks. You will of
 
 This has been a long post. You deserve a break.
 
-<br>
-<br>
-<hr>
-<small>Buna, Samer. “The Mistakes I Made As a Beginner Programmer.” Medium, EdgeCoders, 21 Mar. 2019, medium.com/edge-coders/the-mistakes-i-made-as-a-beginner-programmer-ac8b3e54c312.</small>
-<br>
-<br>
+Buna, Samer. “The Mistakes I Made As a Beginner Programmer.” Medium, EdgeCoders, 21 Mar. 2019, medium.com/edge-coders/the-mistakes-i-made-as-a-beginner-programmer-ac8b3e54c312.
 
 ## Daily Journal
 ### Answer the following questions

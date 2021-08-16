@@ -130,12 +130,7 @@ To find out whether the certificate is valid in Chrome, go to *View* > *Devel
 
 The next time you visit a website, check its encryption status. I love knowing that by clicking a little padlock, I can see if my data is secure. On the flip side, if you are a part of a business that doesn't have SSL certificates, make them a part of your next goal set, so you can protect your customers' data and privacy.
 
-<br>
-<br>
-<hr>
-<small>Vocell, J. (2020). A Beginner's Guide to SSL: What It is &amp; Why It Makes Your Website More Secure. Retrieved November 16, 2020, from https://blog.hubspot.com/marketing/what-is-ssl</small>
-<br>
-<br>
+Vocell, J. (2020). A Beginner's Guide to SSL: What It is &amp; Why It Makes Your Website More Secure. Retrieved November 16, 2020, from https://blog.hubspot.com/marketing/what-is-ssl
 
 ## Daily Journal
 ### Answer the following questions

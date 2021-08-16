@@ -87,7 +87,8 @@ If we present the data without CSS then we could expect an outdated looking site
 }
 .card-img-top {
   width:100%;
-  border-top-left-radius: calc(.25rem - 1px);          border-top-right-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(.25rem - 1px);          
+  border-top-right-radius: calc(.25rem - 1px);
   border-bottom-right-radius: 5%;
   box-shadow: -5px 5px 5px black;
 }

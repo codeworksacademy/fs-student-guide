@@ -444,12 +444,7 @@ var favorites = favoritesCol.find({book: 1}).populate('user')
 >
 >Establish the maximum size of `N` and the size of `M`. For example if `N` is a maximum of 3 categories for a book and `M` is a maximum of 500000 books in a category you should pick One Way Embedding. If `N` is a maximum of 3 and `M` is a maximum of 5 then Two Way Embedding might work well.
 
-<br>
-<br>
-<hr>
-<small>Kvalheim, Christian Amor. MongoDb Relationships. learnmongodbthehardway.com/schema/schemabasics/. </small>
-<br>
-<br>
+Kvalheim, Christian Amor. MongoDb Relationships. learnmongodbthehardway.com/schema/schemabasics/. 
 
 ## Daily Journal
 ### Answer the following questions

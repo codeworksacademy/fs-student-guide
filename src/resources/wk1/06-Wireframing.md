@@ -90,8 +90,6 @@ High-fidelity wireframes should be saved for the latter stages of the product's 
 
 ![Side to side image of mid and high fidelity wireframes](https://d33wubrfki0l68.cloudfront.net/7a9be24ae5a3cf8aaf93cf6b0ca9a572c649e888/e02cb/en/blog/uploads/midtohighfidelity.png "Mid-fidelity wireframe next to a high-fidelity wireframe")
 
-<br>
-
 ## What is included in a wireframe?
 ------------------------------------
 
@@ -116,8 +114,6 @@ The second core difference is the behavior of the mobile app or website. On a we
 
 The way that users interact with mobile apps differs vastly from how they interact on a desktop. The app may pull content and data from the Internet in a similar fashion to a website, but many apps also offer the user the option to download content for offline use. These "offline modes" specific to mobile applications should be reflected in your wireframe.
 
-<br>
-
 ## Examples of wireframes
 --------------------------
 
@@ -140,12 +136,7 @@ To give you an idea of the variety of ways wireframes can be created (and to pro
 
 So there we have it: everything you need to know (and then some) about wireframes. They may seem basic enough to be overlooked, but wireframes will enable you to get vital user, client, and stakeholder approval when it comes to the layout and navigation of the product's key pages. Armed with this approval, you can move forward with the confidence that you're designing something that your clients and users will love. The bonus? Wireframes save heaps of time and money in the long run!
 
-<br>
-<br>
-<hr>
-<small>Hannah, Jaye. What Exactly Is Wireframing? A Comprehensive Guide. careerfoundry.com/en/blog/ux-design/what-is-a-wireframe-guide/.</small>
-<br>
-<br>
+Hannah, Jaye. What Exactly Is Wireframing? A Comprehensive Guide. careerfoundry.com/en/blog/ux-design/what-is-a-wireframe-guide/.
 
 ## Daily Journal
 ### Answer the following questions

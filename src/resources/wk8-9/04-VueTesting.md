@@ -164,12 +164,7 @@ TestCafe is a Node.js based end-to-end framework that aims to provide easy setup
 
 - [TestCafe's Official Website](https://devexpress.github.io/testcafe/)`
 
-<br>
-<br>
-<hr>
-<small>You, E. (2020). # Testing. Retrieved November 11, 2020, from https://v3.vuejs.org/guide/testing.html</small>
-<br>
-<br>
+You, E. (2020). # Testing. Retrieved November 11, 2020, from https://v3.vuejs.org/guide/testing.html
 
 ## Daily Journal
 ### Answer the following questions

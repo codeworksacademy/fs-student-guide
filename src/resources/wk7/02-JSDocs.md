@@ -279,12 +279,7 @@ In that regard there are a lot of similarities with Test-Driven Development. Fir
 
 On the other hand, it is really that hard to add documentation after finishing a method or class? That's where tools like JSDoc come in handy.
 
-<br>
-<br>
-<hr>
-<small>Gagliardi, V. (2020, February 02). Code documentation for JavaScript with JSDoc: An introduction. Retrieved November 16, 2020, from https://www.valentinog.com/blog/jsdoc/</small>
-<br>
-<br>
+Gagliardi, V. (2020, February 02). Code documentation for JavaScript with JSDoc: An introduction. Retrieved November 16, 2020, from https://www.valentinog.com/blog/jsdoc/
 
 ## Daily Journal
 ### Answer the following questions

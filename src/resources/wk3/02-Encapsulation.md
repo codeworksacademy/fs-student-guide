@@ -130,12 +130,7 @@ console.log(
 ```
 I still have a strong preference for [factory functions](https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e) and true privacy using [closure-based encapsulation](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36) over using classes and the new class fields specification, but if you actually need encapsulation, both closures and class fields are far better than underscores, because they don't rely on convention, and instead enforce true encapsulation.
 
-<br>
-<br>
-<hr>
-<small>Elliott, Eric. “Encapsulation in JavaScript.” Medium, JavaScript Scene, 27 Aug. 2020, medium.com/javascript-scene/encapsulation-in-javascript-26be60e325b4. </small>
-<br>
-<br>
+Elliott, Eric. “Encapsulation in JavaScript.” Medium, JavaScript Scene, 27 Aug. 2020, medium.com/javascript-scene/encapsulation-in-javascript-26be60e325b4. 
 
 ## Daily Journal
 ### Answer the following questions

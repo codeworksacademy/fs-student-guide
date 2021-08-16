@@ -226,12 +226,7 @@ So just in case, you missed the differences, here they are :
 
 4.  While `var` and `let` can be declared without being initialized, `const` must be initialized during declaration.
 
-<br>
-<br>
-<hr>
-<small>Chima, Sarah. Var, Let and Const- What's the Difference? 8 Jan. 2020, dev.to/sarah_chima/var-let-and-const--whats-the-difference-69e. </small>
-<br>
-<br>
+Chima, Sarah. Var, Let and Const- What's the Difference? 8 Jan. 2020, dev.to/sarah_chima/var-let-and-const--whats-the-difference-69e. 
 
 ## Daily Journal
 ### Answer the following questions
