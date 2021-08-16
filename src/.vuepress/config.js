@@ -44,7 +44,6 @@ module.exports = config({
       }
     ],
     sidebar: {
-      // '/': [...getSideBar('resources', 'Student Resources')],
       '/vocab/': [...getSideBar('vocab', 'Vocabulary')],
       '/resources/': [
         ...getSideBar('resources', 'Student Resources'),
@@ -64,11 +63,7 @@ module.exports = config({
   // @ts-ignore
   markdown: {
     lineNumbers: true
-  },
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    ["@mr-hope/sitemap", { hostname: `https://${GITHUB_USERNAME}.github.io/fs-student-guide` }],
-  ]
+  }
 })
 
 function getSideBar(folder, title) {

@@ -10,17 +10,11 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "npm run clean && vuepress build src",
-    "clean": "rm -rf src/.vuepress/dist",
-    "start": "vuepress serve src"
+    "clean": "rm -rf src/.vuepress/dist"
   },
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.5.3"
-  },
   "dependencies": {
-    "@mr-hope/vuepress-plugin-sitemap": "^1.5.5",
-    "@vuepress/plugin-back-to-top": "^1.7.1",
-    "@vuepress/plugin-medium-zoom": "^1.7.1",
-    "vuepress-theme-hope": "^1.5.5"
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.19.2"
   }
 }
