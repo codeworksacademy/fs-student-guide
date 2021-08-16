@@ -1,6 +1,6 @@
 {
   "name": "codeworks-workbook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Workbook for Codeworks Immersive FullStack Students",
   "main": "index.js",
   "authors": {
