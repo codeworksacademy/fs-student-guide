@@ -116,8 +116,6 @@ Once all the files have been removed from a directory, then we can delete it too
 
 *Please note that files and folders deleted in this way cannot be retrieved from the “recycling bin,” so don’t clean house using the command line unless you’re sure that you won’t be wanting those files in the future!*
 
-<br>
-<br>
 
 ## Daily Journal
 ### Answer the following questions 

@@ -26,7 +26,7 @@ So, to demo this; I'm going to use [my Analog clock](https://github.com/YannMjl/
 
 ![Image for post](https://miro.medium.com/max/5052/1*K-vOjDkUrnmjkbgeRpzzpg.png)
 
-<https://github.com/YannMjl/Analog-Clock-JS>
+https://github.com/YannMjl/Analog-Clock-JS
 
 You can do this on your own projects if you want to, but it's actually better to start off by creating a template repository or a brand new repository to play around with actions.
 

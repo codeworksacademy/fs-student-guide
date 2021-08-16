@@ -3,6 +3,7 @@ Following examples show how to create and manipulate with .NET strongly typed li
 
 ## `List<T>`
 List is a generic type, so you can create list of any type (it can be reference type such as Customer or value type such as int)
+
 ```csharp
 var list1 = new List<object>();
 var list2 = new List<Customer>();

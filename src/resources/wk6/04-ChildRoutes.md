@@ -44,7 +44,6 @@ Delete `HelloWorld.vue` from the `src/components` folder and delete `Home.vue` f
     <h1>Alligator Nest</h1>
     <a>Travels</a>
     <a>About</a>
-    <div></div>
   </div>
 </template>
 ```

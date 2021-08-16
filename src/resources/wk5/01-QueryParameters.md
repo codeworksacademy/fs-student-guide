@@ -45,8 +45,6 @@ If you use square brackets in a query string parameter, Express will parse that 
 
 For example, Express will parse `?shoe[color]=white` into the object `{ shoe: { color: 'white' } }`
 
-<br>
-<br>
 
 ## Daily Journal
 ### Answer the following questions

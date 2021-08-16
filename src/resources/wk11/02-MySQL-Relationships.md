@@ -115,14 +115,12 @@ The first record you insert will have an id of 1, the next record will have an i
 
 Identify an instance of each of the three relationships within a school (without using any of the previously provided examples).
 
-<br>
-<hr>
-<br>
-
 # Advancing with Queries - Inner Join
 
 ## 1. Understanding the problem
 Let's imagine we have a relational table called classroomStudents with the following structure and inserts:
+
+<ClientOnly>
 <table>
 <tr>
 <th>id</th>
@@ -155,11 +153,7 @@ Let's imagine we have a relational table called classroomStudents with the follo
 <td>10</td>
 </tr>
 </table>
-<style>
-th, td {
-  text-align: center;
-}
-</style>
+</ClientOnly>
 
 Because Sql is heavily dependent on relationships the existence of such a table (like the one above) in a real life application is very likely. `classroomStudents` is an example of a many to many relationship as both classrooms and students can have many connections to the other.
 
@@ -250,10 +244,6 @@ Congratulations! You've retrieved data efficiently and in a way that will benefi
 ## Challenge yourself
 - What are some other concrete examples of objects you may need to use an inner join to query information of?
 - Write your own inner join queries now and try to utilize aliases in multiple ways!
-
-<br>
-<hr>
-<br>
 
 # Stored Procedures
 What is a stored procedure? You can think of it as a function in your SQL database - it's a reusable command, or set of commands, that can take in paramaters and provide an output. Imagine you have a dog database, and you want to select dogs. You may not want to select all dogs, but you might want all dogs of breed A, breed B, and breed C; and perhaps you want dogs that are between one age and another age; let's say you might also want to add dogs that are known to have a certain temperment. That's a lot of conditions to be writing in your query, and if you find yourself making the same query over and over again, it would be beneficial to create a stored procedure to expedite the process.
@@ -346,9 +336,6 @@ VALUES (2, "Riley", "German Shepherd", 11, "Calm");
 INSERT INTO dogs (id, name, breed, age, temperment)
 VALUES (3, "Winston", "Husky", 1, "Mischevious");
 ```
-
-<br>
-<br>
 
 ## Daily Journal
 ### Answer the following questions

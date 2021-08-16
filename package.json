@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "npm run clean && vuepress build src",
-    "clean": "rm -rf src/.vuepress/dist"
+    "clean": "rm -rf src/.vuepress/dist",
+    "start": "vuepress serve src"
   },
   "license": "MIT",
   "devDependencies": {

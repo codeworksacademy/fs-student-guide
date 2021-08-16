@@ -295,8 +295,6 @@ In this article, you were introduced to different lifecycle hooks available in t
 
 If you'd like to learn more about Vue.js, check out [our Vue.js topic page](https://www.digitalocean.com/community/tags/vue-js) for exercises and programming projects.
 
-<br>
-<br>
 
 ## Daily Journal
 ### Answer the following questions

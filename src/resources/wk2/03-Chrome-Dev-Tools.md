@@ -8,15 +8,15 @@ Many web browsers have built in developer tools available for software developer
 There are multiple ways to open your Chrome DevTools:
 
 *	Right click in the browser and click on the “Inspect” option
-*	To open whatever panel you used last<br>
-  Mac users: F12, Command + Option + i<br>
-  Windows users: F12, Control + Shift + i<br>
+*	To open whatever panel you used last
+  Mac users: F12, Command + Option + i
+  Windows users: F12, Control + Shift + i
 *	To open the Console panel	
-  Mac users: Command + Option + j<br>
-  Windows users: Control + Shift + j<br>
-*	To open the Elements panel<br>
-Mac users: Command + Option + c<br>
-Windows users: Control + Shift + c<br>
+  Mac users: Command + Option + j
+  Windows users: Control + Shift + j
+*	To open the Elements panel
+Mac users: Command + Option + c
+Windows users: Control + Shift + c
 
 Any of these options will open the DevTools in the Elements tab (we’ll talk more about the Elements tab later). 
 
@@ -207,9 +207,6 @@ If the request was successful, but your code is still not behaving correctly, be
 The value of these tools should be self evident. The ability to debug code is absolutely necessary in the world of software development, and these tools provide a way to view your code in great depth.
 
 Your DevTools should always be open when you're working on web applications. You should feel blind when they are closed. Foolish are those who do not use their DevTools, yet claim to know everything.
-
-<br>
-<br>
 
 ## Daily Journal
 ### Answer the following questions

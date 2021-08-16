@@ -131,7 +131,7 @@ JSDoc has a lot more tags. The "author" annotation for example is useful when yo
 ```javascript
 /**
  * Generates a table head
- * @author Valentino Gagliardi <valentinoDOTvalentinog.com>
+ * @author Valentino Gagliardi valentinoDOTvalentinog.com
  * @param {HTMLTableElement} table - The target HTML table
  * @param {Array} data - The array of cell header names
  */
@@ -203,7 +203,7 @@ Now create a new file named table.js with the following code:
 ```javascript
 /**
  * Generates a table head
- * @author Valentino Gagliardi <valentinoDOTvalentinog.com>
+ * @author Valentino Gagliardi valentinoDOTvalentinog.com
  * @param {HTMLTableElement} table - The target HTML table
  * @param {Array} data - The array of cell header names
  * @return {void}

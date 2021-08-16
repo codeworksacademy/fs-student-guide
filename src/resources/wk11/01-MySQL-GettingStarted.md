@@ -12,71 +12,35 @@ We'll be using <a href="https://code.visualstudio.com/download" target="_blank">
 
 In GearHost let's create a new database. Make sure to select a MySql database! It should have this logo: 
 
-<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/mysql-logo.PNG">
+<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/mysql-logo.PNG" />
 
 Excellent. After creating your db you should be directed to a page like this:
 
-<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/gearhost-db.png">
+<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/gearhost-db.png" />
 
 We'll keep this page open so we have access to all of the credentials when we need them in just a moment. Now let's go ahead and create a new project folder and open it with VSCode.
 
 With our instance of VSCode open, let's navigate to the extensions tab on the left sidebar. We'll search for `MySql` by `Jun Han`.
 
-<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/vscode-extension.PNG">
+<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/vscode-extension.PNG" />
 
 After installing the extension, our file explorer tab in the left sidebar will be populated with a new collapsable section named MYSQL. Hovering over this section bar makes a `+` sign visible. Click it to establish a connection to a Sql server that in turn will be able to  communicate with multiple databases.
 
 We should now see an input field at the top of our VSCode like so: 
 
-<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/connect-w-vscode.PNG">
+<img src="https://bcw.blob.core.windows.net/public/img/courses/sql-images/connect-w-vscode.PNG" />
 
 The MYSQL extension will progress us through a chain of input fields like this one to populate with the correct credentials which we have readily available on our gearhost database page. Here's what you should enter into each input field that pops up.
-<style>
-img {
-  padding: 5px 0;
-  border: 2px solid transparent;
-  border-top-color: blue;
-  border-bottom-color: black;
-}
-table {
-  border: 2px solid black;
-}
-th {
-  border-bottom: 2px solid black;
-}
-</style>
-<table>
-  <tr>
-    <th></th>
-    <th>Input Description</th>
-    <th>Credential Value (via GearHost)</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Host</td>
-    <td>database server</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>User</td>
-    <td>Username</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Password</td>
-    <td>Password <i>(toggle the visibility with the eye button left)</i></td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Port</td>
-    <td>Default Value 3306 is fine</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>SSL Certificate Path (optional)</td>
-    <td>We'll omit/leave empty for now</td>
-  </tr>
-</table>
+
+Input Description
+
+Credential Value (via GearHost)
+
+1. Host database server
+2. User 
+3. Password _(toggle the visibility with the eye button left)_
+4. Port Default Value `3306` is fine
+5. SSL Certificate Path (optional) We'll omit/leave empty for now
 
 If all the credentials were entered correctly, we should see a new server connection in the MYSQL section of our of file explorer. When we click the dropdown arrow to the left of the server name two databases will become available to us. The information_schema will always be included for each server connection by default. It holds SQL information that the MYSQL extension will utilize in the background for us. The other database will be your actual database that you've created on GearHost. Go ahead and right click on this database and select New Query. Congrats, you're all set to begin the next lesson! 
 
@@ -244,9 +208,6 @@ WHERE id = 1;
 
 ## All about practice
   Go practice these commands by creating a table for vehicles. What kind of columns would you want to use? How would you insert records to represent new vehicles or update old records? Practice these commands until you become more comfortable with them.
-<br>
-<hr>
-<br>
 
 # Queries and the SELECT statement
 Queries can be used to do a lot of things with data in your SQL database, but one of the most common queries is retrieving data by using the `SELECT` statement. In this section, we will discuss different ways you can select data:
@@ -348,9 +309,6 @@ LIMIT 50 50; -- Retrieve rows 51 - 100
 ### Challenge yourself
 
 These are only a few ways that you can focus your searches to make them more efficient. I encourage you to think of other ways you might need to select information. What if you wanted to use multiple conditions? How would you do AND statements or OR statements with SQL?
-
-<br>
-<br>
 
 ## Daily Journal
 ### Answer the following questions

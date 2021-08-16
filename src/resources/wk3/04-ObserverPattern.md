@@ -198,11 +198,11 @@ Note with arrow functions it is possible to wire up one-liner events. In fact, y
 
 No demo is complete without one you can touch and tweak, below is the CodePen:
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="SitePoint" data-slug-hash="rzBEXP" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="The Observer Pattern">
+<div class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="SitePoint" data-slug-hash="rzBEXP" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="The Observer Pattern">
   <span>See the Pen <a href="https://codepen.io/SitePoint/pen/rzBEXP">
   The Observer Pattern</a> by SitePoint (<a href="https://codepen.io/SitePoint">@SitePoint</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+</div>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Now, I would not call this feature complete. It is but a starting point of the observer design pattern. The question in my mind is, how far are you willing to go?

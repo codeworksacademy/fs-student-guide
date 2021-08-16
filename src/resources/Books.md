@@ -1,5 +1,7 @@
 # Recommended Books
 
+<ClientOnly>
+
 <BookCard title="Eloquent JavaScript" img="https://images-na.ssl-images-amazon.com/images/I/51I9naPg55L._SX218_BO1,204,203,200_QL40_.jpg" link="https://eloquentjavascript.net/">A book providing an introduction to the JavaScript language and programming in general.</BookCard>
 
 <BookCard title="You Dont Know JS" img="https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/up%20&%20going/cover.jpg?raw=true" link="https://github.com/getify/You-Dont-Know-JS">No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset</BookCard>
@@ -25,3 +27,5 @@
 <BookCard title="Code Complete 2" img="https://images-na.ssl-images-amazon.com/images/I/41JOmGowq-L._SX408_BO1,204,203,200_.jpg" link="https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670">Capturing the body of knowledge available from research, academia, and everyday commercial practice, McConnell synthesizes the most effective techniques and must-know principles into clear, pragmatic guidance. No matter what your experience level, development environment, or project size, this book will inform and stimulate your thinking—and help you build the highest quality code.</BookCard>
 
 <BookCard title="HTML and CSS" img="https://images-na.ssl-images-amazon.com/images/I/41WznOEKmAL._SX396_BO1,204,203,200_.jpg" link="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/">This beautifully designed manual explains how to use HTML in a concise readable format. This educational book is one that you will enjoy picking up, reading, then referring back to. It will make you wish other technical topics were presented in such a simple, attractive and engaging way!</BookCard>
+
+</ClientOnly>
