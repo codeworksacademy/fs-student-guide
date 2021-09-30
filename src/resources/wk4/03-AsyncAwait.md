@@ -134,8 +134,9 @@ Debugging promises is hard because the debugger will not step over asynchronous 
 
 Async/await makes this very easy because to the compiler it's just like synchronous code.
 
+---
 
-NodeJs, Team. Modern Asynchronous JavaScript with Async and Await, nodejs.dev/learn/modern-asynchronous-javascript-with-async-and-await. 
+*NodeJs, Team. Modern Asynchronous JavaScript with Async and Await, nodejs.dev/learn/modern-asynchronous-javascript-with-async-and-await.* 
 
 ## Daily Journal
 ### Answer the following questions
