@@ -4,9 +4,9 @@
 
 <tr>
 
-<th width="50%">A</th>
+<th width="50%">Term</th>
 
-<th width="50%">B</th>
+<th width="50%">Definition</th>
 
 </tr>
 
