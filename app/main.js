@@ -10,8 +10,10 @@ function setActiveNavLink() {
 async function buildSidebar() {
   const res = await fetch('/fs-student-guide/search.json')
   const data = await res.json()
-  data.forEach(item => {
-    if (!item || !item.title) { return }
+  data.filter(i => {
+    if (!i || !i.title || !i.url || !i.url.includes('resources')) { return }
+    return i
+  }).forEach(item => {
     const sidebarItem = document.createElement('a')
     const cleanTitle = item.title.replace(/-/g, ' ')
     sidebarItem.href = item.url
