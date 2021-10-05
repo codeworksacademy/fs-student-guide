@@ -80,6 +80,10 @@ const books = [
 ]
 
 function drawBooks() {
+  const elem = document.getElementById('books');
+  if (!elem) {
+    return setTimeout(drawBooks, 100);
+  }
   let template = ''
   books.forEach(book => {
     template += `
@@ -97,5 +101,5 @@ function drawBooks() {
     </div>
     `
   })
-  document.getElementById('books').innerHTML = template
+  elem.innerHTML = template
 }
