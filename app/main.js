@@ -22,7 +22,7 @@ async function buildSidebar() {
     }
     sidebarItem.title = cleanTitle
     sidebarItem.innerHTML = `
-      <li class="selectable p-2 text-success lighten-30 text-capitalize rounded no-select">${cleanTitle}</li>
+      <li class="selectable p-2 no-select text-success lighten-30 text-capitalize rounded no-select">${cleanTitle}</li>
     `
     let wk = item.url.substr(28).split('/')[0]
     if (!wk.includes('wk')) { wk = 'wk0' }
