@@ -22,8 +22,8 @@ async function buildSidebar() {
     sidebarItem.innerHTML = `
       <li class="selectable p-2 text-success lighten-30 text-capitalize rounded no-select">${cleanTitle}</li>
     `
-    let wk = 'wk' + item.url.split('/wk')[0]
-    wk += wk.length === 2 ? '0' : ''
+    let wk = item.url.substr(28).split('/')[0]
+    if (!wk.includes('wk')) { wk = 'wk0' }
     document.getElementById(wk)?.appendChild(sidebarItem)
   })
 }
