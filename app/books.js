@@ -54,13 +54,13 @@ const books = [
     description: 'This brain-friendly guide teaches you everything from JavaScript language fundamentals to advanced topics, including objects, functions, and the browser’s document object model. You won’t just be reading—you’ll be playing games, solving puzzles, pondering mysteries, and interacting with JavaScript in ways you never imagined.'
   },
   {
-    title: "HEAD FIRST CSharp",
+    title: "Head First CSharp",
     img: "https://images-na.ssl-images-amazon.com/images/I/51nk9Pi074L._SX258_BO1,204,203,200_.jpg",
     link: "https://www.amazon.com/Head-First-Learners-Real-World-Programming/dp/1491976705/",
     description: "Dive into CSharp and create apps, user interfaces, games, and more using this fun and highly visual introduction to CSharp, . NET Core, and Visual Studio. You'll learn how to use classes and object- oriented programming, create 3D games in Unity, and query data with LINQ And you'll do it all by solving puzzles, doing hands-on exercises, and building real-world applications."
   },
   {
-    title: "HEAD FIRST DESIGN PATTERNS",
+    title: "Head First Design Patterns",
     img: "https://images-na.ssl-images-amazon.com/images/I/51d1hlegtQL._SX258_BO1,204,203,200_.jpg",
     link: "https://www.amazon.com/Head-First-Design-Patterns-Object-Oriented-dp-149207800X/dp/149207800X/",
     description: "You know you don't want to reinvent the wheel, so you look to Design Patterns: the lessons learned by those who've faced the same software design problems. With Design Patterns, you get to take advantage of the best practices and experience of others so you can spend your time on something more challenging. Something more fun."
