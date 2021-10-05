@@ -94,9 +94,9 @@ function drawBooks() {
         </div>
         <div class="card-body">
           <a class="selectable btn text-primary" href="${book.link}" title="${book.title}">  
-            <h3>${book.title}</h3>
+            <h3 class="text-primary darken-30 border-bottom">${book.title}</h3>
           </a>
-          <p>${book.description}</p>
+          <p class="px-3">${book.description}</p>
         </div>
       </div>
     </div>
