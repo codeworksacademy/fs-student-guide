@@ -8,6 +8,12 @@ function setActiveNavLink() {
 }
 
 async function buildSidebar() {
+  const isMobile = window.innerWidth < 768
+  if (isMobile) {
+    const sidebar = document.getElementById('sidebar')
+    sidebar.className = 'offcanvas offcanvas-start'
+    sidebar.tabIndex = -1
+  }
   const res = await fetch('/fs-student-guide/search.json')
   const data = await res.json()
   data.filter(i => {
