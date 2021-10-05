@@ -109,11 +109,7 @@ article table td {
   padding: 0.75rem;
 }
 
-.sidebar {
-  height: calc(100vh - 118px);
-  overflow: auto;
-}
 .viewport {
-  height: calc(100vh - 118px);
+  height: calc(100vh - 116px);
   overflow: auto;
 }
