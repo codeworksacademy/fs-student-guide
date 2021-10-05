@@ -7,13 +7,19 @@ function setActiveNavLink() {
   navElem.classList.add('active-nav')
 }
 
-async function buildSidebar() {
+function setSidebarPosition() {
   const isMobile = window.innerWidth < 992
+  const sidebar = document.getElementById('sidebar')
   if (isMobile) {
-    const sidebar = document.getElementById('sidebar')
     sidebar.className = 'offcanvas offcanvas-start bg-dark'
     sidebar.tabIndex = -1
+  } else {
+    sidebar.className = 'col-lg-2 d-none d-lg-block bg-dark'
+    sidebar.tabIndex = 0
   }
+}
+
+async function buildSidebar() {
   const res = await fetch('/fs-student-guide/search.json')
   const data = await res.json()
   data.filter(i => {
@@ -56,7 +62,13 @@ function init() {
     console.error('[INITIALIZATION_ERROR]', error.message, error.stack, error)
   }
 
+  document.onresize = () => {
+    setSidebarPosition()
+  }
+
 }
+
+
 
 
 
