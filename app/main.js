@@ -1,3 +1,5 @@
+import { $debounce } from "./utils/debounce.js"
+
 // JAVASCRIPT HOOKS
 const currentUrl = window.location.href.substr(window.location.href.indexOf('fs-student-guide/') + 11).split('/')[0]
 
@@ -65,7 +67,6 @@ function init() {
   }
 
   window.addEventListener('resize', () => {
-    // @ts-ignore
     $debounce(setSidebarPosition, 500)
   })
 
