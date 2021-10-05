@@ -4,7 +4,7 @@ let debounced = []
  * @param {function} callback
  * @param {number} timeout
  */
-export function $debounce(callback, timeout, cancel) {
+function $debounce(callback, timeout, cancel) {
   const i = debounced.find(c => c.callback === callback)
   let index = debounced.length
   if (i) {
@@ -24,6 +24,9 @@ export function $debounce(callback, timeout, cancel) {
   }, timeout)
   debounced[index] = { id, index, callback }
 }
-export function $purgeDebounce() {
+function $purgeDebounce() {
   debounced = []
 };
+
+window.$debounce = $debounce
+window.$purgeDebounce = $purgeDebounce
