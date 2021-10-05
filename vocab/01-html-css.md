@@ -1,5 +1,4 @@
-# HTML/CSS
-
+# HTML & CSS
 
 ## HTML
 
@@ -23,9 +22,6 @@
 The script element either contains scripting statements, or it points to an external script file through the src attribute.
 Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
 
-![cheatsheet](https://hostingfacts.com/wp-content/uploads/2016/06/HTML_CHEAT_SHEET_PNG.png)
-
-
 ## CSS
 
 **CSS**: CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.
@@ -39,9 +35,4 @@ Common uses for JavaScript are image manipulation, form validation, and dynamic 
  **Value**: this part of the rule sets the value of the property. (12px, 5em, blue)
  
  ![selectors](https://www.w3schools.com/css/selector.gif)
-
- **CSS Options**  
- 
- ![css](https://bcw.blob.core.windows.net/public/img/courses/css-cheatsheet-1.png)
-
  
