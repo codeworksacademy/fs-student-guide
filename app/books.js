@@ -87,9 +87,9 @@ function drawBooks() {
   let template = ''
   books.forEach(book => {
     template += `
-    <div class="book col-lg-3 my-3">
-      <div class="book card">
-        <img src="${book.img}" alt="${book.title}">
+    <div class="book my-3">
+      <div class="book">
+        <img src="${book.img}" alt="${book.title}" height="250">
         <div class="card-body">
           <h3>${book.title}</h3>
           <p>${book.description}</p>
@@ -103,3 +103,5 @@ function drawBooks() {
   })
   elem.innerHTML = template
 }
+
+drawBooks()
