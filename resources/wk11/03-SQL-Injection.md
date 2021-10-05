@@ -2,7 +2,7 @@
 ### *How these attacks work and how to prevent them*
 
 
-### There are several types of SQL injection, but they all involve an attacker inserting arbitrary SQL into a web application database query. The good news? SQL injection is the lowest of the low-hanging fruit for both attackers and defenders.
+> There are several types of SQL injection, but they all involve an attacker inserting arbitrary SQL into a web application database query. The good news? SQL injection is the lowest of the low-hanging fruit for both attackers and defenders.
 
 
 Immortalized by "Little Bobby Drop Tables" in [XKCD 327](https://xkcd.com/327/), SQL injection (SQLi) was first discovered in 1998, yet continues to plague web applications across the internet. Even the [OWASP Top Ten](https://www.owasp.org/index.php/Top_10-2017_A1-Injection) lists injection as the number one threat to web application security.
