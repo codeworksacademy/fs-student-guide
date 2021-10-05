@@ -1,7 +1,7 @@
 import { $debounce } from "./utils/debounce.js"
 
 // JAVASCRIPT HOOKS
-const currentUrl = window.location.href.substr(window.location.href.indexOf('fs-student-guide/') + 11).split('/')[0]
+const currentUrl = window.location.href.substr(window.location.href.indexOf('fs-student-guide/') + 17)
 
 function setActiveNavLink() {
   const navElem = document.getElementById('nav-' + currentUrl)
@@ -33,7 +33,7 @@ async function buildSidebar() {
     const sidebarItem = document.createElement('a')
     const cleanTitle = item.title.replace(/-/g, ' ')
     sidebarItem.href = item.url
-    if (currentUrl === item.url) {
+    if (item.url.includes(currentUrl)) {
       sidebarItem.classList.add('active-nav')
     }
     sidebarItem.title = cleanTitle
@@ -44,6 +44,12 @@ async function buildSidebar() {
     if (!wk.includes('wk')) { wk = 'wk0' }
     document.getElementById(wk)?.appendChild(sidebarItem)
   })
+  if (currentUrl.includes('wk')) {
+    let activeWK = 'c-' + currentUrl.split('/').find(s => s.includes('wk'))
+    // @ts-ignore
+    let activeC = bootstrap.Collapse.getOrCreateInstance(document.getElementById(activeWK))
+    activeC.show()
+  }
 }
 
 
