@@ -105,7 +105,7 @@ used to assign values to variables
 
 ### Comparison Operators
 
-these operators are used to determine a 'truthy' or 'falsy' value.  these can be used in conjunction with other statements to run or not run certain lines of code under certain conditions.
+these operators are used to determine a `truthy` or `falsy` value.  these can be used in conjunction with other statements to run or not run certain lines of code under certain conditions.
 
 - **==** is equal
 - **!=** is not equal
