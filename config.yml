@@ -1,8 +1,7 @@
 theme: minima
-title: CodeWorks Journal
+title: CodeWorks Fullstack student guide
 tagline: Learn to Code. Develop your future!
 description: CodeWorks Fullstack student guide
 author: CodeWorks
-logo: /assets/img/codeworks.png
 plugins:
   - jekyll-seo-tag
