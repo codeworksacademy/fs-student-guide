@@ -11,6 +11,7 @@ async function buildSidebar() {
   const res = await fetch('/fs-student-guide/search.json')
   const data = await res.json()
   data.forEach(item => {
+    if (!item || !item.url) { return }
     const sidebarItem = document.createElement('a')
     const cleanTitle = item.title.replace(/-/g, ' ')
     sidebarItem.href = item.url
