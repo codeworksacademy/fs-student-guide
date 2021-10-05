@@ -8,7 +8,7 @@ function setActiveNavLink() {
 }
 
 async function buildSidebar() {
-  const isMobile = window.innerWidth < 768
+  const isMobile = window.innerWidth < 992
   if (isMobile) {
     const sidebar = document.getElementById('sidebar')
     sidebar.className = 'offcanvas offcanvas-start bg-dark'
