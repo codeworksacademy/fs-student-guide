@@ -93,9 +93,10 @@ function drawBooks() {
           <img src="${book.img}" alt="${book.title}" height="250">
         </div>
         <div class="card-body">
-          <h3>${book.title}</h3>
+          <a class="selectable btn text-primary" href="${book.link}" title="${book.title}">  
+            <h3>${book.title}</h3>
+          </a>
           <p>${book.description}</p>
-          <a class="selectable btn text-primary" href="${book.link}" title="${book.title}"><b>More</b></a>
         </div>
       </div>
     </div>
