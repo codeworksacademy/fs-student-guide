@@ -89,13 +89,13 @@ function drawBooks() {
     template += `
     <div class="book my-3">
       <div class="book">
-        <img src="${book.img}" alt="${book.title}" height="250">
+        <div class="text-center">
+          <img src="${book.img}" alt="${book.title}" height="250">
+        </div>
         <div class="card-body">
           <h3>${book.title}</h3>
           <p>${book.description}</p>
-          <b>
-            <a class="selectable btn btn-secondary" href="${book.link}" title="${book.title}">Learn More</a>
-          </b>
+          <a class="selectable btn text-primary" href="${book.link}" title="${book.title}"><b>More</b></a>
         </div>
       </div>
     </div>
