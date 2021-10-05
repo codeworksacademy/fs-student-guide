@@ -40,7 +40,7 @@ function init() {
       searchResultTemplate: '<a href="{url}" title="{title}"><li class="selectable p-2 text-dark rounded">{title}</li></a>',
       noResultsText: 'No results found.',
       limit: 10,
-      fuzzy: true,
+      fuzzy: false,
     })
 
     buildSidebar()
