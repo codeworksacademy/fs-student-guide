@@ -21,7 +21,7 @@
 - **dir *.txt** list all .txt files in current directory
 - **dir *.?** list all files with extensions one character in length in current directory
 - **dir /w /p *.*** = display all contents one screen at a time
-- **dir | more** display all contents one line at a time
+- **dir** display all contents one line at a time
 - **dir /?** provides syntax info and complete list of all dir parameters
 - **echo** send command line input to display (by default)
 - **echo sometext » somefile.txt** append line(s) of text to any file
@@ -37,4 +37,4 @@
 - **ren x y** rename file x to y
 - **time** change the time
 - **type file** display the contents of the file 'file' (displays file contents in console)
-- **type file |more** display the contents one line at a time
+- **type file** display the contents one line at a time
