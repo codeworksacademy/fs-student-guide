@@ -20,7 +20,7 @@ async function buildSidebar() {
     }
     sidebarItem.title = cleanTitle
     sidebarItem.innerHTML = `
-      <li class="selectable p-2 text-dark rounded">${cleanTitle}</li>
+      <li class="selectable p-2 text-success lighten-30 rounded">${cleanTitle}</li>
     `
     let wk = 'wk' + item.url.split('/wk')[0]
     wk += wk.length === 2 ? '0' : ''
