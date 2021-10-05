@@ -27,7 +27,7 @@ const books = [
     title: "Cracking the Coding Interview",
     img: "https://images-na.ssl-images-amazon.com/images/I/51l5XzLln%2BL._SX348_BO1, 204, 203, 200_.jpg",
     link: "https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt",
-    description: 'Good or Bad many companies will base their hiring decisions on your ability to think on the spot. Check out this playlist by Gayle before you start interviewing'
+    description: 'Good or Bad many companies will base their hiring decisions on your ability to think on the spot. Check out this <a href="https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt" target="_blank">playlist by Gayle</a> before you start interviewing'
   },
   {
     title: "The Mythical Man-Month",
@@ -39,7 +39,7 @@ const books = [
     title: "Design Patterns",
     img: "https://images-na.ssl-images-amazon.com/images/I/51kuc0iWoKL._SX326_BO1,204,203,200_.jpg",
     link: "https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8/",
-    description: 'Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.'
+    description: 'Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves. These patterns have withstood the test of time. Follow <a href="https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc" target="_blank">Christopher Okhravi</a> in his video series as he explores the most common patterns seen in modern development.'
   },
   {
     title: "Game Programming Patterns",
