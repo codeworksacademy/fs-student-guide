@@ -67,7 +67,7 @@ function init() {
   }
 
   window.addEventListener('resize', () => {
-    $debounce(setSidebarPosition, 1000)
+    $debounce(setSidebarPosition, 500)
   })
 
 }
