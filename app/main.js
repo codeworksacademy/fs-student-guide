@@ -1,3 +1,5 @@
+import { $debounce } from "./utils/debounce.js"
+
 // JAVASCRIPT HOOKS
 const currentUrl = window.location.href.substr(window.location.href.indexOf('fs-student-guide/') + 11).split('/')[0]
 
@@ -16,10 +18,12 @@ function setSidebarPosition() {
   } else {
     sidebar.className = 'col-lg-2 d-none d-lg-block bg-dark'
     sidebar.tabIndex = 0
+    sidebar.style.visibility = 'visible'
   }
 }
 
 async function buildSidebar() {
+  setSidebarPosition()
   const res = await fetch('/fs-student-guide/search.json')
   const data = await res.json()
   data.filter(i => {
@@ -62,13 +66,11 @@ function init() {
     console.error('[INITIALIZATION_ERROR]', error.message, error.stack, error)
   }
 
-  document.onresize = () => {
-    setSidebarPosition()
-  }
+  window.addEventListener('resize', () => {
+    $debounce(setSidebarPosition, 1000)
+  })
 
 }
-
-
 
 
 
