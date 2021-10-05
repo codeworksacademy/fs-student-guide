@@ -9,7 +9,7 @@ const books = [
     title: "You Dont Know JS",
     img: "https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/up%20&%20going/cover.jpg?raw=true",
     link: "https://github.com/getify/You-Dont-Know-JS",
-    description: 'No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset'
+    description: 'No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skill set'
   },
   {
     title: "Clean Code",
@@ -57,7 +57,7 @@ const books = [
     title: "HEAD FIRST CSharp",
     img: "https://images-na.ssl-images-amazon.com/images/I/51nk9Pi074L._SX258_BO1,204,203,200_.jpg",
     link: "https://www.amazon.com/Head-First-Learners-Real-World-Programming/dp/1491976705/",
-    description: "Dive into CSharp and create apps, user interfaces, games, and more using this fun and highly visual introduction to CSharp, . NET Core, and Visual Studio. You'll learn how to use classes and object- oriented programming, create 3D games in Unity, and query data with LINQ.And you'll do it all by solving puzzles, doing hands-on exercises, and building real-world applications."
+    description: "Dive into CSharp and create apps, user interfaces, games, and more using this fun and highly visual introduction to CSharp, . NET Core, and Visual Studio. You'll learn how to use classes and object- oriented programming, create 3D games in Unity, and query data with LINQ And you'll do it all by solving puzzles, doing hands-on exercises, and building real-world applications."
   },
   {
     title: "HEAD FIRST DESIGN PATTERNS",
