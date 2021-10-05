@@ -10,7 +10,6 @@
  1, 75, 1000000, 0.99, -13
 ```
 
-
 **String** A string (or a text string) is a series of characters
 
 ```js
@@ -72,7 +71,7 @@ yourName === myName // => false
 
 variable keywords are used to declare the value of a variable.
 
-- **var** declares a varible with global scope
+- **var** declares a variable with global scope
 - **let** declares a variable with a local scope
 - **const** declares a variable with a local scope, however it's value cannot be changed after declaration.
 
@@ -85,13 +84,13 @@ variable keywords are used to declare the value of a variable.
 used to perform arithmetic between variables and/or values.
 
 - **+** Addition
-- **-** Subtraciton
+- **-** Subtraction
 - __*__ Multiplication
 - __**__ Exponentiation
-- **/**Division
-- **%**Modulus (division remainder)
-- **++**Increment
-- **--**Decrement
+- **/** Division
+- **%** Modulus (division remainder)
+- **++** Increment
+- **--** Decrement
 
 ### Assignment Operators
 
@@ -106,7 +105,7 @@ used to assign values to variables
 
 ### Comparison Operators
 
-these opperators are used to determine a 'truthy' or 'falsy' value.  these can be used in conjunction with other statements to run or not run certain lines of code under certain conditions.
+these operators are used to determine a 'truthy' or 'falsy' value.  these can be used in conjunction with other statements to run or not run certain lines of code under certain conditions.
 
 - **==** is equal
 - **!=** is not equal
@@ -128,7 +127,7 @@ Logical operators are used to determine the logic between variables or values.
 
 **Functions** are one of the fundamental building blocks in JavaScript. A function is a reusable set of statements to perform a task or calculate a value. Functions can be passed one or more values and can return a value at the end of their execution. 
 
-**Function Parameters** An input to the function when the function is declared or defined.  Parameters are used as variables inside the functions body.  When the function is called, these parameters will have the value of whatever is passed in as ***arguments***
+**Function Parameters** An input to the function when the function is declared or defined.  Parameters are used as variables inside the functions body. When the function is called, these parameters will have the value of whatever is passed in as ***arguments***
 
 **Function Return** Functions return (pass back) values using the return keyword. return ends function execution and returns the specified value to the location where it was called.
 
@@ -145,9 +144,9 @@ Logical operators are used to determine the logic between variables or values.
 
 **Loops** are blocks of code used to do the same thing, over and over again.  Often referred to as **iteration**.  A loop will usually have one or more of the following elements
 
-**Initializer** this is the starting point of the loop, and generally will count as each new itteration of the loop runs.
+**Initializer** this is the starting point of the loop, and generally will count as each new iteration of the loop runs.
 
-**Condition** A conditional statement used to determine wheter the loop continues to run, or stops.
+**Condition** A conditional statement used to determine whether the loop continues to run, or stops.
 
 **Final-expression** this generally increments the ***initializer*** with each successive loop until the ***condition*** is no longer true.
 
@@ -199,6 +198,6 @@ do {
 
 **Constructor** The constructor method is a special method for creating and initializing an object created with a class. There can only be one special method with the name "constructor" in a class.
 
-**Methods** methods are actions that can be performed on objects.  Think of it like a function that exists on the class.  To access this method we will first have to access the an object with the class this method exists.
+**Methods** methods are actions that can be performed on objects.  Think of it like a function that exists on the class. To access this method we will first have to access the an object with the class this method exists.
 
 **This** a keyword used to reference the instance of the object in which this exists.
