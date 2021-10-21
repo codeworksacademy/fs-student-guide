@@ -33,7 +33,7 @@ async function buildSidebar() {
     const sidebarItem = document.createElement('a')
     const cleanTitle = item.title.replace(/-/g, ' ')
     sidebarItem.href = item.url
-    if (item.url.includes(currentUrl)) {
+    if (currentUrl && item.url.includes(currentUrl)) {
       sidebarItem.classList.add('active-nav')
     }
     sidebarItem.title = cleanTitle
