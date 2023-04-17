@@ -131,3 +131,7 @@ article table td {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+iframe{
+  max-width: 100%;
+}
