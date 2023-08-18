@@ -361,8 +361,8 @@ Some properties, like `background` and `margin` for example, allow for a variabl
 **common units for values**
 <table>
   <tr>
-    <th>modification</th>
-    <th>availbe units</th>
+    <th>Modification</th>
+    <th>Available Units</th>
   </tr>
   <tr>
     <td>spacial</td>
